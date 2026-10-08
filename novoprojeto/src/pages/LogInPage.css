@@ -1,0 +1,149 @@
+.login-page {
+  background-color: #faf5ef;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  padding: 120px 20px 40px; 
+}
+
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container {
+  background: white;
+  border: 1px solid #e0dcd3;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+  padding: 56px 48px;         
+  max-width: 520px;           
+  width: 100%;
+  text-align: center;
+}
+
+.login-container h2 {
+  color: #3b3025;
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+.login-container p {
+  color: #6b5b4d;
+  margin-bottom: 28px;
+  font-size: 1rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login-form label {
+  text-align: left;
+  font-weight: bold;
+  color: #3b3025;
+  font-size: 0.95rem;
+}
+
+.login-form input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  background-color: #f3e9dc;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #3b3025;
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: #9c7e53;
+}
+
+.login-form .erro-msg {
+  color: #b85c5c;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: -6px;
+}
+
+.login-form button {
+  background-color: #9c7e53;
+  color: white;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #8c6e45;
+}
+
+.criar-conta-wrapper {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.criar-conta-btn {
+  margin-top: 16px;
+  background: none;
+  border: none;
+  color: #9c7e53;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.criar-conta-btn:hover {
+  color: #7a5f49;
+}
+
+.input-password-wrapper {
+  position: relative;
+}
+
+.input-password-wrapper input {
+  width: 100%;
+  padding: 12px 40px 12px 12px; 
+  border: 1px solid #ddd;
+  background-color: #f3e9dc;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #3b3025;
+}
+
+.eye-button {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0;
+  margin: 0;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.eye-button svg {
+  color: rgba(59, 48, 37, 0.6) !important;
+  fill: rgba(59, 48, 37, 0.6) !important;
+  transition: color 0.2s ease, fill 0.2s ease;
+}
+
+.eye-button:hover svg {
+  color: #3b3025 !important;
+  fill: #3b3025 !important;
+}

@@ -1,0 +1,250 @@
+.produtos-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  padding: 0 40px;
+  margin-top: 30px;
+}
+  
+.produto-cartao {
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  transition: transform 0.2s ease;
+  font-size: 0.92rem;
+}
+
+.produto-cartao:hover {
+  transform: translateY(-4px);
+}
+  
+.produto-cartao img {
+  width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  margin-bottom: 10px;
+}
+  
+.cabecalho-produtos {
+  text-align: center;
+  margin-bottom: 32px;
+  padding-top: 40px;
+  color: #3b3029;
+}
+  
+.cabecalho-produtos h2 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+  
+.cabecalho-produtos p {
+  font-size: 1.2rem;
+  color: #5a5047;
+}
+  
+.filtros {
+  display: flex;
+  gap: 16px;
+  padding: 20px 40px 0px 40px;
+}  
+  
+.filtros label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+  
+.filtros select {
+  margin-top: 6px;
+  padding: 8px 12px;
+  font-size: 0.95rem;
+  border-radius: 6px;
+  border: 1px solid #ccc2b6;
+  color: #3b3029;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+  
+.filtros select:hover {
+  border-color: #b7a999;
+}
+
+.filtros select:focus {
+  outline: none;
+}
+  
+.paginacao {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 40px 0 60px; 
+}
+
+.paginacao .ativo{
+  background-color: #b7a999;
+  color: #ffffff;
+  border-color: #b7a999;
+  transform: scale(1.05);
+}
+
+.paginacao button {
+  padding: 8px 12px;
+  border: 1px solid #ccc2b6;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #3b3029;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.paginacao button:hover {
+  border-color: #b7a999;
+}
+
+.paginacao button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(183, 169, 153, 0.5);
+}
+
+.sem-resultados {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #5a5047;
+  padding: 50px;
+  margin-bottom: 419px;
+}
+
+.botao-favorito {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  background-color: transparent;
+  border: none !important;
+  cursor: pointer;
+  font-size: 1.4rem;
+  color: #c5a98b;
+  transition: transform 0.2s ease, color 0.2s ease;
+  padding: 4px;
+  display: flex;
+}
+
+.botao-favorito:hover {
+  transform: scale(1.2);
+  color: #a88463;
+  background-color: transparent;
+}
+
+.botao-favorito:focus {
+  border: none !important;
+}
+
+.botao-favorito svg {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+.produto-link {
+  color: inherit;
+}
+
+.produto-imagem-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.produto-imagem-wrapper img {
+  width: 100%;
+  display: block;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.produto-imagem-wrapper.indisponivel img {
+  opacity: 0.65;
+}
+
+.faixa-indisponivel {
+  position: absolute;
+  bottom: 9px;
+  left: 0;
+  right: 0;
+  background-color: rgba(179, 177, 177, 0.85); 
+  color: white;
+  text-align: center;
+  padding: 6px 0;
+  font-weight: bold;
+  font-size: 0.85rem;
+  z-index: 2;
+}
+
+/* Responsive Design */
+
+/* ecrãs pequenos como telemóveis */
+@media (max-width: 932px) {
+  .produtos-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0 12px;
+  }
+
+  .cabecalho-produtos h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .cabecalho-produtos p {
+    font-size: 0.95rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .filtros {
+    flex-direction: column;
+    padding: 12px;
+    gap: 8px;
+  }
+
+  .filtros label {
+    font-size: 0.85rem;
+    margin-bottom: 2px;
+  }
+
+  .filtros select {
+    font-size: 0.85rem;
+    padding: 6px 8px;
+    margin-bottom: 4px;
+  }
+
+  .paginacao {
+    gap: 4px;
+    margin: 24px 0 40px;
+  }
+
+  .paginacao button {
+    padding: 5px 9px;
+    font-size: 0.85rem;
+  }
+}
+
+/* ecrãs médios como tablets */
+@media (min-width: 933px) and (max-width: 1366px) {
+  .produtos-grid {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 20px;
+  }
+
+  .filtros {
+    padding: 20px;
+  }
+
+  .filtros label {
+    flex: 1 1 150px;
+  }
+}

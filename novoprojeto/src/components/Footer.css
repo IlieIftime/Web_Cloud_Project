@@ -1,0 +1,18 @@
+.footer {
+    background-color: #f6f0e8;
+    border-top: 1px solid #e0dcd3;
+    padding: 12px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6e5b4f;
+}
+
+/* Responsive Design */
+
+/* ecrãs pequenos como telemóveis */
+@media (max-width: 932px) {
+    .footer {
+      font-size: 0.8rem;
+      padding: 10px 8px;
+    }
+}

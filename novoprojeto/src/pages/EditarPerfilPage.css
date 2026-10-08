@@ -1,0 +1,116 @@
+.editar-perfil {
+  background-color: #fdf8f3;
+  min-height: 100vh;
+  padding: 40px 20px;
+  color: #3b3025;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.editar-perfil h2 {
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+}
+
+.form-editar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  gap: 16px;
+}
+
+.form-editar label {
+  font-weight: bold;
+  color: #5a5047;
+}
+
+.form-editar input,
+.input-password-wrapper input {
+  height: 44px;
+  padding: 10px 38px 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd2c9;
+  font-size: 1rem;
+  font-family: inherit;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #3b3025;
+}
+
+.form-editar input:focus,
+.input-password-wrapper input:focus {
+  outline: none;
+  border-color: #b9a89b;
+  box-shadow: 0 0 0 2px #f0e6df;
+}
+
+.form-editar button {
+  margin-top: 20px;
+  background-color: #6e4b34;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.form-editar button:hover {
+  background-color: #5c3e2a;
+}
+
+.obrigatorio {
+  color: #a1866f;
+  font-size: 0.9rem;
+}
+
+.mensagem {
+  margin-top: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mensagem.sucesso {
+  color: #3b3025;
+}
+
+.mensagem.erro {
+  color: #a13f2d;
+}
+
+.input-password-wrapper {
+  position: relative;
+}
+
+.eye-button {
+  position: absolute;
+  right: 10px;
+  top: 7%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  line-height: 0;
+}
+
+.eye-button svg {
+  color: rgba(59, 48, 37, 0.6) !important;
+  fill: rgba(59, 48, 37, 0.6) !important;
+  transition: color 0.2s ease, fill 0.2s ease;
+}
+
+.eye-button:hover svg {
+  color: #3b3025 !important;
+  fill: #3b3025 !important;
+}

@@ -1,0 +1,257 @@
+.carrinho-main {
+  background-color: #fef5e9;
+  min-height: 100vh;
+  padding-top: 38px;
+}
+  
+.carrinho-titulo {
+  font-size: 2.8rem;
+  margin-bottom: 1.1rem;
+  color: #3b3029;
+  text-align: center;
+}
+  
+.carrinho-subtitulo {
+  font-size: 1.2rem;
+  color: #5a5047;
+  max-width: 600px;
+  margin: 0 auto 24px;
+  text-align: center;
+}
+  
+.carrinho-tabela-wrapper {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 40px 48px;
+}
+
+.carrinho-info {
+  font-size: 1.05rem;
+  color: #928676;
+  margin-bottom: 16px;
+  padding-left: 12px;
+  text-align: left;
+}
+  
+.carrinho-tabela {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  background-color: #fffaf3;
+  padding: 28px 48px;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+  
+.carrinho-header {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  background-color: #f4e1e1;
+  padding: 18px 48px;
+  font-weight: bold;
+  color: #5a5047;
+  margin: -28px -48px 0 -48px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+  
+.carrinho-linha {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #f1e9e0;
+  color: #3b3025;
+}
+
+.produto-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+  
+.produto-info img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+  
+.quantidade {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+  
+.quantidade button {
+  background-color: #f1e8dd;
+  border: 1px solid #e0dcd3;
+  color: #3b3029;
+  padding: 6px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+}
+  
+.quantidade span {
+  min-width: 24px;
+  text-align: center;
+  font-weight: 500;
+}
+  
+.linha-total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 8px;
+}
+
+.btn-remover {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #8c6f56;
+  transition: transform 0.2s ease, color 0.2s ease;
+  padding: 4px;
+  display: flex;
+}
+  
+.btn-remover:hover {
+  transform: scale(1.2);
+  color: #5a4030;
+  background-color: transparent;
+}
+
+.carrinho-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.carrinho-subtotal {
+  color: #3b3029;
+  margin-left: 12px;
+}
+
+.carrinho-subtotal p {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.carrinho-subtotal small {
+  font-size: 0.95rem;
+  color: #928676;
+}
+
+.carrinho-botoes {
+  display: flex;
+  gap: 12px;
+}
+  
+.btn-carrinho {
+  padding: 12px 20px;
+  background-color: #fff;
+  color: #3b3029;
+  border: 1px solid #d7c5b4;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+  
+.btn-carrinho:hover {
+  background-color: #f1e8dd;
+}
+  
+.btn-carrinho.finalizar {
+  background-color: #8c6f56;
+  color: white;
+  border: none;
+}
+  
+.btn-carrinho.finalizar:hover {
+  background-color: #7a5f49;
+}
+  
+button:focus{
+  outline: none !important;
+}
+
+/* Responsive Design */
+
+/* ecrãs pequenos como telemóveis */
+@media (max-width: 932px) {
+  .carrinho-titulo {
+    font-size: 1.9rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .carrinho-subtitulo {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    padding: 0 12px;
+  }
+
+  .carrinho-tabela-wrapper {
+    padding: 20px 16px;
+  }
+
+  .carrinho-header {
+    display: none;
+  }
+
+  .carrinho-linha {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px 0;
+  }
+
+  .produto-info img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .quantidade {
+    margin-top: 8px;
+  }
+
+  .quantidade button {
+    font-size: 0.9rem;
+  }
+
+  .btn-remover {
+    color: #484011;
+    margin-top: 1px;
+  }
+
+  .carrinho-bottom {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  .carrinho-subtotal {
+    text-align: center;
+  }
+
+  .carrinho-subtotal p {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .carrinho-subtotal small {
+    font-size: 0.85rem;
+  }
+
+  .carrinho-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .btn-carrinho {
+    font-size: 0.9rem;
+    padding: 10px 14px;
+  }
+}

@@ -1,0 +1,2428 @@
+[
+    {
+        "id": 1,
+        "name": "Cadeirão Matteo",
+        "description": "Cadeirão de design contemporâneo com estrutura em madeira maciça e estofos confortáveis em tecido amarelo torrado. ideal para salas modernas ou espaços de leitura elegantes.",
+        "price": 249.99,
+        "category": "Sala - Cadeirões",
+        "stock": {"pequeno": 36, "médio": 24, "grande": 17},
+        "date": "03/01/2024",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["amarelo"],
+        "image": "/imagens/cadeirão-id1.png",
+        "reviews": [
+          {
+            "username": "Cami Hawney",
+            "score": 4,
+            "comment": "Muito confortável e elegante, fica perfeito no meu canto de leitura. A cor é igual à da foto e o tecido é super agradável ao toque."
+          },
+          {
+            "username": "Julita Brotherton",
+            "score": 2,
+            "comment": "Bonito mas esperava que fosse um pouco mais macio. Ainda assim, combina bem com a decoração da sala."
+          }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Cadeira Sofia",
+        "description": "Cadeira elegante com encosto ergonómico e estrutura de madeira leve. ideal para salas de jantar modernas ou espaços de coworking minimalistas.",
+        "price": 89.99,
+        "category": "Sala - Cadeiras",
+        "stock": {"pequeno": 12, "grande": 15},
+        "date": "02/07/2024",
+        "size": ["pequeno", "grande"],
+        "color": ["cinzento"],
+        "image": "/imagens/cadeira-id2.png",
+        "reviews": [
+          {
+            "username": "Silvester Johnston",
+            "score": 2,
+            "comment": "A cadeira é bonita mas um pouco dura para longos períodos de uso. Boa para jantares curtos."
+          },
+          {
+            "username": "Robena Selwyn",
+            "score": 4,
+            "comment": "Design excelente, chegou bem embalada e é fácil de montar. Voltaria a comprar."
+          },
+          {
+            "username": "Darrin Taplin",
+            "score": 5,
+            "comment": "Super confortável e encaixa perfeitamente com a minha mesa de jantar. Adorei o acabamento!"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Cadeira Bernardo",
+        "description": "Cadeira robusta com rodas e pele. Perfeita para compor ambientes de leitura acolhedores ou áreas de estudo.",
+        "price": 119.99,
+        "category": "Sala - Cadeiras",
+        "stock": {"médio": 39, "grande": 10},
+        "date": "03/30/2025",
+        "size": ["médio", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/cadeira-id3.png",
+        "reviews": [
+          {
+            "username": "Wright McIlwain",
+            "score": 5,
+            "comment": "Muito confortável e com um acabamento impecável. A pele tem um toque rústico que adoro."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Cadeirão Lorenzo",
+        "description": "Cadeirão clássico com encosto alto e braços acolchoados, estofado em tecido rosa claro e base em madeira. ideal para criar um recanto elegante e confortável.",
+        "price": 269.99,
+        "category": "Sala - Cadeirões",
+        "stock": {"pequeno": 29, "médio": 16, "grande": 32},
+        "date": "10/26/2024",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["rosa"],
+        "image": "/imagens/cadeirão-id4.png",
+        "reviews": [
+          {
+            "username": "Kitty Cowless",
+            "score": 4,
+            "comment": "Excelente para leitura! Confortável e a cor combina com tudo."
+          },
+          {
+            "username": "Florenza Yeldham",
+            "score": 5,
+            "comment": "Design bonito e muito confortável. A entrega foi rápida."
+          },
+          {
+            "username": "Valdemar Sallery",
+            "score": 4,
+            "comment": "Boa qualidade e acabamento, apenas achei um pouco mais rígido do que esperava."
+          }
+        ]
+      },      
+      {
+        "id": 5,
+        "name": "Cadeirão Enzo",
+        "description": "Um cadeirão sofisticado com acabamento em pele branca. Conforto e estilo combinados para dar vida à sua sala de estar.",
+        "price": 289.99,
+        "category": "Sala - Cadeirões",
+        "stock": {"pequeno": 28, "grande": 25},
+        "date": "05/09/2024",
+        "size": ["pequeno", "grande"],
+        "color": ["branco"],
+        "image": "/imagens/cadeirão-id5.png",
+        "reviews": [
+          {
+            "username": "Ardisj Winsper",
+            "score": 2,
+            "comment": "O tecido é bonito, mas achei um pouco firme demais. Ainda assim, fica bem com o resto da decoração."
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Cadeira Chiara",
+        "description": "Cadeira de jantar elegante com assento em tecido preto e pés em madeira clara. Perfeita para dar um toque escandinavo ao seu espaço.",
+        "price": 109.99,
+        "category": "Sala - Cadeiras",
+        "stock": {"pequeno": 31, "médio": 44, "grande": 45},
+        "date": "06/18/2023",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["preto"],
+        "image": "/imagens/cadeira-id6.png",
+        "reviews": [
+          {
+            "username": "Zuzana Farleigh",
+            "score": 2,
+            "comment": "Bonita visualmente, mas o conforto podia ser melhorado. ideal para pouco tempo sentado."
+          },
+          {
+            "username": "Gert Sheppey",
+            "score":3,
+            "comment": "Cumpre o que promete, combina bem com minha mesa de madeira. Tecido fácil de limpar."
+          }
+        ]
+      }
+      ,
+      {
+        "id": 7,
+        "name": "Banco Vittorio",
+        "description": "Banco de plástico preto, com pés de madeira clara. Uma peça sofisticada que combina conforto e elegância, ideal para hall de entrada, quarto ou sala.",
+        "price": 149.99,
+        "category": "Sala - Bancos",
+        "stock": {"médio": 12, "grande": 9},
+        "date": "04/28/2023",
+        "size": ["médio", "grande"],
+        "color": ["preto"],
+        "image": "/imagens/banco-id7.png",
+        "reviews": [
+          {
+            "username": "Collie Leamy",
+            "score": 3,
+            "comment": "Adoro o material e a cor, mas esperava que fosse um pouco mais macio ao sentar."
+          },
+          {
+            "username": "May Richardot",
+            "score": 2,
+            "comment": "O design é lindo, mas os pés podiam ser mais robustos. Ainda assim, dá um toque moderno ao ambiente."
+          },
+          {
+            "username": "Bert Enticknap",
+            "score": 1,
+            "comment": "Fiquei desiludido com a estabilidade. É mais decorativo do que funcional."
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Banco Raia",
+        "description": "Banco de madeira branca. Uma peça versátil que une funcionalidade e estética requintada, perfeita para complementar o quarto ou zona de vestir.",
+        "price": 159.99,
+        "category": "Sala - Bancos",
+        "stock": {"pequeno": 9, "médio": 5},
+        "date": "01/04/2023",
+        "size": ["pequeno", "médio"],
+        "color": ["branco"],
+        "image": "/imagens/banco-id8.png",
+        "reviews": [
+          {
+            "username": "Rowan Grosvener",
+            "score": 3,
+            "comment": "A cor é maravilhosa e a madeira tem a textura suave. Só achei o assento um pouco firme demais."
+          },
+          {
+            "username": "Rana Burkwood",
+            "score": 4,
+            "comment": "Ótimo acabamento e encaixou perfeitamente ao fundo da minha cama. Dá mesmo um toque luxuoso."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Cadeira Leonor",
+        "description": "Cadeira de jantar com encosto elegante e estrutura robusta, ideal para ambientes sofisticados e acolhedores. Feito de madeira natural.",
+        "price": 109.99,
+        "category": "Sala - Cadeiras",
+        "stock": {"pequeno": 18, "médio": 20, "grande": 26},
+        "date": "22/04/2025",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/cadeira-id9.png",
+        "reviews": [
+          {
+            "username": "Mariana Veloso",
+            "score": 4,
+            "comment": "Adorei o conforto e o estilo clássico. Comprei 6 para a minha sala de jantar e ficaram perfeitas."
+          },
+          {
+            "username": "Leonor Esteves",
+            "score": 5,
+            "comment": "A qualidade do material é excelente, muito melhor do que esperava pelo preço. Entrega super rápida também."
+          },
+          {
+            "username": "Henrique Moura",
+            "score": 3,
+            "comment": "Bonita e confortável, mas achei que o encosto podia ser ligeiramente mais alto."
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Móvel TV Paulino",
+        "description": "Móvel de TV com design contemporâneo em madeira natural, equipado com compartimentos abertos e gavetas discretas para arrumação. Um toque moderno e funcional para a tua sala.",
+        "price": 229.90,
+        "category": "Sala - Móveis TV",
+        "stock": {"médio": 12, "grande": 12},
+        "date": "22/04/2023",
+        "size": ["médio", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/movel-tv-id10.png",
+        "reviews": [
+          {
+            "username": "Cláudia Ramires",
+            "score": 5,
+            "comment": "Fiquei impressionada com a qualidade e acabamento! Muito espaço para guardar e organiza bem os cabos todos."
+          },
+          {
+            "username": "Tomás Ferreira",
+            "score": 4,
+            "comment": "O design é lindo e minimalista. Só achei um pouco trabalhoso montar sozinho, mas valeu totalmente a pena."
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Móvel TV Ilie",
+        "description": "Elegante móvel de TV branco com acabamento em madeira escura. Oferece uma combinação harmoniosa entre funcionalidade e estética com prateleiras abertas e gavetas interiores com fecho suave.",
+        "price": 279.99,
+        "category": "Sala - Móveis TV",
+        "stock": {"médio": 8, "grande": 2},
+        "date": "22/04/2024",
+        "size": ["médio", "grande"],
+        "color": ["branco"],
+        "image": "/imagens/movel-tv-id11.png",
+        "reviews": [
+          {
+            "username": "Beatriz Louro",
+            "score": 5,
+            "comment": "Ficou impecável na minha sala! Super robusto e com muito espaço para organizar os aparelhos e acessórios."
+          },
+          {
+            "username": "Hugo Manso",
+            "score": 4,
+            "comment": "A montagem foi simples e o móvel tem muito bom aspeto ao vivo. Só acho que podia ser um pouco mais alto."
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Móvel TV Susi",
+        "description": "Móvel de TV moderno com linhas retas e um acabamento em amarelo claro. Dispõe de compartimentos amplos para dispositivos eletrónicos e decoração, combinando com qualquer sala contemporânea.",
+        "price": 239.99,
+        "category": "Sala - Móveis TV",
+        "stock": {"pequeno": 14, "médio": 16, "grande": 13},
+        "date": "22/04/2025",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["amarelo"],
+        "image": "/imagens/movel-tv-id12.png",
+        "reviews": [
+          {
+            "username": "Raquel Tomás",
+            "score": 4,
+            "comment": "O design é lindíssimo e o acabamento é mesmo como na foto. Ficou perfeito com a decoração minimalista da sala!"
+          },
+          {
+            "username": "Carlos Bértolo",
+            "score": 5,
+            "comment": "Muito funcional e fácil de montar. O material parece resistente e veio super bem embalado."
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Mesa de Cabeceira Helena",
+        "description": "Mesa de cabeceira com design elegante e funcional, ideal para quartos modernos.",
+        "price": 119.90,
+        "category": "Quarto - Mesas de Cabeceira",
+        "stock": {"pequeno": 21, "grande": 18},
+        "date": "22/04/2023",
+        "size": ["pequeno", "grande"],
+        "color": ["preto"],
+        "image": "/imagens/mesa-de-cabeceira-id13.png",
+        "reviews": [
+          {
+            "username": "Joana Duarte",
+            "score": 4,
+            "comment": "Muito bonita e prática! O material parece de qualidade."
+          },
+          {
+            "username": "Eduardo Vasques",
+            "score": 2,
+            "comment": "Esperava que fosse um pouco maior, mas cumpre bem a função."
+          },
+          {
+            "username": "Cláudia Pinho",
+            "score": 1,
+            "comment": "Veio com um pequeno risco num dos lados, mas tirando isso, é bonita."
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Mesa de Cabeceira Diana",
+        "description": "Mesa de cabeceira com acabamento sofisticado em madeira natural. Possui uma gaveta discreta e espaço inferior para livros ou decoração.",
+        "price": 109.90,
+        "category": "Quarto - Mesas de Cabeceira",
+        "stock": {"pequeno": 8, "grande": 9},
+        "date": "22/04/2023",
+        "size": ["pequeno", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/mesa-de-cabeceira-id14.png",
+        "reviews": [
+          {
+            "username": "Ana Lopes",
+            "score": 5,
+            "comment": "Simplesmente linda! Ficou perfeita no meu quarto. Muito prática e elegante."
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Mesa de Cabeceira Beatriz",
+        "description": "Mesa de cabeceira com design minimalista e estrutura robusta. E rosaa e possui uma gaveta espaçosa e base elevada para um toque moderno.",
+        "price": 129.90,
+        "category": "Quarto - Mesas de Cabeceira",
+        "stock": {"pequeno": 5, "médio": 8},
+        "date": "22/04/2025",
+        "size": ["pequeno", "médio"],
+        "color": ["rosa"],
+        "image": "/imagens/mesa-de-cabeceira-id15.png",
+        "reviews": [
+          {
+            "username": "Jocelyn Klementz",
+            "score": 5,
+            "comment": "Combina perfeitamente com a minha cama! Muito elegante e resistente."
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Estante Aurea",
+        "description": "Estante vertical em madeira escura com quatro prateleiras abertas. ideal para livros, plantas e elementos decorativos em salas modernas.",
+        "price": 139.99,
+        "category": "Sala - Estantes",
+        "stock": {"pequeno": 18, "médio": 18, "grande": 15},
+        "date": "19/07/2023",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/estante-id16.png",
+        "reviews": [
+          {
+            "username": "Helena Castro",
+            "score": 5,
+            "comment": "Simples e elegante! A estrutura é sólida e ficou perfeita na minha sala. Montei sozinha em 10 minutos."
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Estante Ester",
+        "description": "Estante em madeira escura com cinco níveis e design minimalista. ideal para organização de livros, objetos decorativos ou plantas em ambientes escandinavos ou modernos.",
+        "price": 159.99,
+        "category": "Sala - Estantes",
+        "stock": {"pequeno": 21, "médio": 33},
+        "date": "23/11/2024",
+        "size": ["pequeno", "médio"],
+        "color": ["preto"],
+        "image": "/imagens/estante-id17.png",
+        "reviews": [
+          {
+            "username": "Stuart Ceschelli",
+            "score": 4,
+            "comment": "Fiquei surpreendido com a qualidade. Muito estável e bem acabada, só mudava os parafusos que podiam ser mais discretos."
+          },
+          {
+            "username": "Greer Januszewicz",
+            "score": 2,
+            "comment": "Bonita mas não veio com instruções de montagem claras, tive que procurar vídeos online."
+          },
+          {
+            "username": "Noni Haslum",
+            "score": 5,
+            "comment": "Amei! Deu outra vida à minha sala. A madeira é linda e as prateleiras têm bom espaço."
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Estante Amália",
+        "description": "Estante versátil com três prateleiras em madeira e gavetas deslizantes. Perfeita para adicionar elegância e organização a qualquer espaço de leitura ou sala de estar.",
+        "price": 119.99,
+        "category": "Sala - Estantes",
+        "stock": {"pequeno": 18, "grande": 27},
+        "date": "01/06/2025",
+        "size": ["pequeno", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/estante-id18.png",
+        "reviews": [
+          {
+            "username": "Lois Sea",
+            "score": 4,
+            "comment": "Boa qualidade e montagem simples. A estrutura de madeira dá um toque antigo que adorei."
+          },
+          {
+            "username": "Hakim Bragger",
+            "score": 3,
+            "comment": "Achei bonita, mas esperava que as prateleiras fossem um pouco mais largas. Ainda assim, cumpre o propósito."
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Cama Aurora",
+        "description": "Cama de casal com design minimalista e cabeceira estofada em bege claro. Estrutura robusta em madeira e linhas suaves que combinam conforto com elegância.",
+        "price": 449.99,
+        "category": "Quarto - Camas",
+        "stock": {"pequeno": 20, "médio": 19, "grande": 11},
+        "date": "19/04/2025",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["bege"],
+        "image": "/imagens/cama-id19.png",
+        "reviews": [
+          {
+            "username": "Hilliary Dimitriades",
+            "score": 5,
+            "comment": "Muito confortável e linda! O tecido da cabeceira é suave e a cama dá um ar sofisticado ao quarto."
+          },
+          {
+            "username": "Rayna Escott",
+            "score": 4,
+            "comment": "Fácil de montar e muito estável. Só acho que a entrega podia ter sido mais rápida."
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Cama Siena",
+        "description": "Cama moderna estofada em verde claro. ideal para quem procura elegância e conforto num design contemporâneo.",
+        "price": 489.99,
+        "category": "Quarto - Camas",
+        "stock": {"pequeno": 38, "médio": 34},
+        "date": "12/01/2024",
+        "size": ["pequeno", "médio"],
+        "color": ["verde"],
+        "image": "/imagens/cama-id20.png",
+        "reviews": [
+          {
+            "username": "Brett Reddell",
+            "score": 5,
+            "comment": "Adorei a qualidade do material e o acabamento. A cama ficou perfeita no meu quarto!"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Cama Julian",
+        "description": "Cama elegante com cor cinza e design minimalista escandinavo. Um toque de leveza e sofisticação para qualquer quarto.",
+        "price": 529.99,
+        "category": "Quarto - Camas",
+        "stock": {"médio": 25, "grande": 26},
+        "date": "14/07/2023",
+        "size": ["médio", "grande"],
+        "color": ["cinzento"],
+        "image": "/imagens/cama-id21.png",
+        "reviews": [
+          {
+            "username": "Harald Wignall",
+            "score": 2,
+            "comment": "A estrutura é bonita mas esperava um colchão mais firme incluído."
+          },
+          {
+            "username": "Bastian Wong",
+            "score": 3,
+            "comment": "Visual muito bonito, mas demorou um pouco para montar."
+          },
+          {
+            "username": "Phaidra Fogden",
+            "score": 4,
+            "comment": "Super confortável e o estofo tem um acabamento impecável. Gostei muito!"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Cama Soni",
+        "description": "Cama de casal em madeira com estilo antigo e estrutura robusta. ideal para quem procura conforto com um toque de elegância.",
+        "price": 599.99,
+        "category": "Quarto - Camas",
+        "stock": {"médio": 39, "grande": 48},
+        "date": "04/07/2025",
+        "size": ["médio", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/cama-id22.png",
+        "reviews": [
+          {
+            "username": "Raeann Chidler",
+            "score": 5,
+            "comment": "Muito confortável e bonita! Ficou perfeita no meu quarto."
+          },
+          {
+            "username": "Milty Tombs",
+            "score": 2,
+            "comment": "A montagem foi mais complicada do que esperava, mas a cama em si é boa."
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Beliche Oslo",
+        "description": "Beliche moderna com estrutura de madeira branca e escadas laterais integradas. ideal para quartos de crinaças partilhados, otimizando o espaço com estilo e funcionalidade.",
+        "price": 449.99,
+        "category": "Quarto - Beliches",
+        "stock": {"pequeno": 40, "grande": 14},
+        "date": "29/08/2023",
+        "size": ["pequeno", "grande"],
+        "color": ["branco"],
+        "image": "/imagens/beliche-id23.png",
+        "reviews": [
+          {
+            "username": "Patricio Pretsell",
+            "score": 3,
+            "comment": "A estrutura é resistente, mas podia vir com instruções mais claras."
+          },
+          {
+            "username": "Leonie Bednell",
+            "score": 2,
+            "comment": "O design é bonito, mas demorou bastante tempo a montar."
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Beliche Urban",
+        "description": "Beliche funcional com design minimalista em metal preto. Inclui escada vertical e proteção superior, ideal para espaços compactos e modernos.",
+        "price": 429.99,
+        "category": "Quarto - Beliches",
+        "stock": {"pequeno": 29, "médio": 13, "grande": 16},
+        "date": "24/04/2023",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["preto"],
+        "image": "/imagens/beliche-id24.png",
+        "reviews": [
+          {
+            "username": "Angelia O'Grogane",
+            "score": 4,
+            "comment": "Design muito bonito e combina com a decoração do quarto. As crianças adoraram."
+          },
+          {
+            "username": "Roselin Gawthorpe",
+            "score": 4,
+            "comment": "Boa qualidade e fácil de montar. Só gostava que a escada fosse um pouco mais larga."
+          },
+          {
+            "username": "Bent Brister",
+            "score": 3,
+            "comment": "Funcional e compacto, mas o colchão de cima podia ter mais apoio lateral."
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Beliche Ana",
+        "description": "Beliche robusto com acabamento branco. ideal para quartos partilhados, oferece segurança com laterais elevadas e escada integrada.",
+        "price": 469.00,
+        "category": "Quarto - Beliches",
+        "stock": {"médio": 8, "grande": 7},
+        "date": "25/04/2025",
+        "size": ["médio", "grande"],
+        "color": ["branco"],
+        "image": "/imagens/beliche-id25.png",
+        "reviews": [
+          {
+            "username": "Rory Dicty",
+            "score": 2,
+            "comment": "Bonito, mas a montagem foi mais complicada do que esperava. Manual podia ser mais claro."
+          },
+          {
+            "username": "Brunhilda Alvares",
+            "score": 5,
+            "comment": "Excelente qualidade! Muito resistente e seguro para os meus dois filhos."
+          },
+          {
+            "username": "Felicdad Dallinder",
+            "score": 2,
+            "comment": "A estrutura é sólida, mas acho que a escada podia ser inclinada para maior conforto."
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Sofá Oliva",
+        "description": "Sofá espaçoso e moderno com design modular em verde oliva. ideal para salas amplas, oferece conforto e estilo escandinavo com linhas retas e pés de madeira.",
+        "price": 899.00,
+        "category": "Sala - Sofás",
+        "stock": {"pequeno": 26, "médio": 30},
+        "date": "25/04/2024",
+        "size": ["pequeno", "médio"],
+        "color": ["verde"],
+        "image": "/imagens/sofá-id26.png",
+        "reviews": [
+          {
+            "username": "Faustine Richten",
+            "score": 3,
+            "comment": "É muito bonito e confortável, mas achei difícil encaixar as partes modulares sozinha."
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Sofá Tofu",
+        "description": "Sofá reclinável com encosto alto e almofadas largas, perfeito para relaxar com conforto. Estofado em tecido bege claro, ideal para salas acolhedoras.",
+        "price": 689.00,
+        "category": "Sala - Sofás",
+        "stock": {"médio": 7, "grande": 1},
+        "date": "25/04/2024",
+        "size": ["médio", "grande"],
+        "color": ["bege"],
+        "image": "/imagens/sofá-id27.png",
+        "reviews": [
+          {
+            "username": "Konstanze Dellit",
+            "score": 4,
+            "comment": "Muito confortável e elegante. Só achei um pouco difícil de mover por causa do tamanho."
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Sofá Nogu",
+        "description": "Sofá de vários lugares com design moderno e linhas retas, estofado em pele laranja forte. ideal para ambientes elegantes.",
+        "price": 549.00,
+        "category": "Sala - Sofás",
+        "stock": {"pequeno": 21, "médio": 9, "grande": 29},
+        "date": "27/04/2025",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["laranja"],
+        "image": "/imagens/sofá-id28.png",
+        "reviews": [
+          {
+            "username": "Dawna Peterson",
+            "score": 4,
+            "comment": "Design bonito e elegante, mas o assento podia ser um pouco mais macio."
+          },
+          {
+            "username": "Ricky Bruford",
+            "score": 5,
+            "comment": "Adoro este sofá! Fica perfeito na minha sala de estar e é super confortável."
+          },
+          {
+            "username": "Bronson Baudon",
+            "score": 5,
+            "comment": "Ótima qualidade e fácil de limpar. Recomendo totalmente!"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Sofá Lui",
+        "description": "Sofá moderno e versátil com estrutura modular, ideal para personalizar o espaço da sala. Estofado em pele castanha com pés em madeira elegantes.",
+        "price": 399.99,
+        "category": "Sala - Sofás",
+        "stock": {"pequeno": 23, "médio": 9},
+        "date": "08/08/2023",
+        "size": ["pequeno", "médio"],
+        "color": ["castanho"],
+        "image": "/imagens/sofá-id29.png",
+        "reviews": [
+          {
+            "username": "Virgina Fensome",
+            "score": 5,
+            "comment": "Perfeito para o meu estúdio! Adapta-se a qualquer layout e é muito confortável."
+          },
+          {
+            "username": "Ninon Roycraft",
+            "score": 2,
+            "comment": "É bonito, mas achei os módulos um pouco instáveis quando estão separados."
+          },
+          {
+            "username": "Moira Pimlett",
+            "score": 4,
+            "comment": "Cor linda e estrutura resistente. Poderia ter mais apoio lombar."
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Sofá Inês",
+        "description": "Sofá espaçoso com vários lugares em tecido branco. Design minimalista com almofadas largas e confortáveis, ideal para salas de estar modernas e acolhedoras.",
+        "price": 399.99,
+        "category": "Sala - Sofás",
+        "stock": {"pequeno": 27, "médio": 7},
+        "date": "18/01/2023",
+        "size": ["pequeno", "médio"],
+        "color": ["branco"],
+        "image": "/imagens/sofá-id30.png",
+        "reviews": [
+          {
+            "username": "Ramon Ambrozewicz",
+            "score": 1,
+            "comment": "Apesar de bonito, o tecido suja facilmente e é difícil de limpar."
+          },
+          {
+            "username": "Amos Emerton",
+            "score": 2,
+            "comment": "Esperava mais conforto. O visual é ótimo, mas as almofadas são muito firmes."
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Sofá Vort",
+        "description": "Sofá espaçoso com estrutura em L. Estilo contemporâneo ideal para espaços elegantes e sofisticados.",
+        "price": 599.99,
+        "category": "Sala - Sofás",
+        "stock": {"pequeno": 1, "grande": 3},
+        "date": "15/09/2025",
+        "size": ["pequeno", "grande"],
+        "color": ["cinzento"],
+        "image": "/imagens/sofá-id31.png",
+        "reviews": [
+          {
+            "username": "Coral Waker",
+            "score": 1,
+            "comment": "O sofá é bonito, mas chegou com um dos pés torto. Tive de devolver."
+          },
+          {
+            "username": "Randolph Davidavidovics",
+            "score": 4,
+            "comment": "Muito confortável e elegante. Ficou perfeito na minha sala!"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Secretária Moly",
+        "description": "Secretária em madeira escura com estrutura preta, ideal para um escritório moderno.",
+        "price": 149.99,
+        "category": "Escritório - Secretárias",
+        "stock": {"pequeno": 22, "médio": 15, "grande": 13},
+        "date": "22/08/2024",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["preto"],
+        "image": "/imagens/secretária-id32.png",
+        "reviews": [
+          {
+            "username": "Zedekiah Cleal",
+            "score": 5,
+            "comment": "A secretária é perfeita para o quarto do meu filho. Muito resistente e fácil de montar!"
+          },
+          {
+            "username": "Rory Bletcher",
+            "score": 5,
+            "comment": "Design simples mas muito bonito. Ficou ótima no ecritório."
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Secretária West",
+        "description": "Secretária com design moderno em branco pedra preta, ideal para escritórios grandes ou espaços de estudo elegantes.",
+        "price": 347.21,
+        "category": "Escritório - Secretárias",
+        "stock": {"médio": 19, "grande": 11},
+        "date": "23/01/2023",
+        "size": ["médio", "grande"],
+        "color": ["branco"],
+        "image": "/imagens/secretária-id33.png",
+        "reviews": [
+          {
+            "username": "Kelcey Purselowe",
+            "score": 3,
+            "comment": "É bonita e combina bem com o meu quarto, mas podia ser um pouco mais larga."
+          },
+          {
+            "username": "Cynthy Zecchini",
+            "score": 3,
+            "comment": "Design impecável, mas tive alguma dificuldade na montagem."
+          },
+          {
+            "username": "Estrellita Westlake",
+            "score": 4,
+            "comment": "Ficou perfeita no meu home office, muito prática e elegante!"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "name": "Secretária Rut",
+        "description": "Secretária compacta com design moderno, ideal para espaços reduzidos. Inclui prateleira frontal para arrumação adicional.",
+        "price": 189.34,
+        "category": "Escritório - Secretárias",
+        "stock": {"pequeno": 20, "médio": 13, "grande": 14},
+        "date": "21/03/2023",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/secretária-id34.png",
+        "reviews": [
+          {
+            "username": "Lari Morrison",
+            "score": 5,
+            "comment": "Excelente para o meu quarto pequeno! A prateleira ajuda muito a manter tudo organizado."
+          },
+          {
+            "username": "Julienne Sesons",
+            "score": 4,
+            "comment": "Design simples mas elegante. A madeira é de boa qualidade, mas o tampo podia ser um pouco mais espesso."
+          },
+          {
+            "username": "Alfie Daoust",
+            "score": 5,
+            "comment": "Montagem rápida e o resultado final é muito bonito. Super funcional!"
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Secretária John",
+        "description": "Secretária pequena com linhas retas e acabamento em madeira escura. ideal para escritórios ou espaços de estudo modernos e pequenos.",
+        "price": 131.73,
+        "category": "Escritório - Secretárias",
+        "stock": {"médio": 7, "grande": 5},
+        "date": "23/01/2024",
+        "size": ["médio", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/secretária-id35.png",
+        "reviews": [
+          {
+            "username": "Nance Canavan",
+            "score": 1,
+            "comment": "A estrutura balança um pouco, esperava algo mais firme."
+          },
+          {
+            "username": "Frayda Pinwill",
+            "score": 1,
+            "comment": "A madeira é bonita, mas veio com uma pequena lasca num dos cantos. Atendimento resolveu, mas demorou."
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Secretária Siri",
+        "description": "Secretária funcional e simples, ideal para quem precisa de espaço minimalista para estudar.",
+        "price": 76.54,
+        "category": "Escritório - Secretárias",
+        "stock": {"pequeno": 15, "médio": 14},
+        "date": "03/04/2025",
+        "size": ["pequeno", "médio"],
+        "color": ["castanho"],
+        "image": "/imagens/secretária-id36.png",
+        "reviews": [
+          {
+            "username": "Gussy Christopherson",
+            "score": 5,
+            "comment": "Muito prática e simples."
+          },
+          {
+            "username": "Ruy Aird",
+            "score": 1,
+            "comment": "A montagem foi um pouco complicada, e o manual podia ser mais claro."
+          },
+          {
+            "username": "Nahum Bawdon",
+            "score": 5,
+            "comment": "Perfeita para o meu quarto! Design simples e funcional."
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "name": "Prateleira Cesal",
+        "description": "Prateleira de parede com design moderno em madeira clara, perfeita para organizar livros, plantas ou objetos decorativos.",
+        "price": 14.56,
+        "category": "Escritório - Prateleiras",
+        "stock": {"médio": 39, "grande": 34},
+        "date": "28/08/2024",
+        "size": ["pequeno", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/prateleira-id37.png",
+        "reviews": [
+          {
+            "username": "Ginger Cleverly",
+            "score": 2,
+            "comment": "Bonita, mas o suporte podia ser mais robusto. Precisei reforçar os parafusos."
+          },
+          {
+            "username": "Robin Gulk",
+            "score": 2,
+            "comment": "O design é elegante, mas achei pequena para o que eu precisava."
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Prateleira Zenu",
+        "description": "Prateleira resistente de vidro laranja, ideal para cantos de salas, escritórios ou halls de entrada.",
+        "price": 6.99,
+        "category": "Escritório - Prateleiras",
+        "stock": {"pequeno": 17, "médio": 10},
+        "date": "25/03/2025",
+        "size": ["pequeno", "médio"],
+        "color": ["laranja"],
+        "image": "/imagens/prateleira-id38.png",
+        "reviews": [
+          {
+            "username": "Kellsie Jouanny",
+            "score": 1,
+            "comment": "Não incluía os parafusos corretos."
+          },
+          {
+            "username": "Myra Marqyes",
+            "score": 4,
+            "comment": "Bonita e funcional, combinou bem com minha decoração moderna."
+          },
+          {
+            "username": "Candy Pirrie",
+            "score": 3,
+            "comment": "Poderia ser um pouco mais profunda, mas no geral cumpre o propósito."
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "name": "Prateleira Cub",
+        "description": "Design simples e moderno, este conjunto de prateleiras é ideal para dar um toque industrial ao ambiente.",
+        "price": 36.45,
+        "category": "Escritório - Prateleiras",
+        "stock": {"pequeno": 4, "médio": 5, "grande": 6},
+        "date": "05/05/2023",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["branco"],
+        "image": "/imagens/prateleira-id39.png",
+        "reviews": [
+          {
+            "username": "Mei Howey",
+            "score": 3,
+            "comment": "Bonita, mas podia ser mais robusta. Serve bem para itens leves."
+          },
+          {
+            "username": "Morly Bickersteth",
+            "score": 4,
+            "comment": "Adorei o estilo! Ficou ótima no meu escritório."
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Prateleira Morty",
+        "description": "Prateleira branca com design orgânico e robusto, ideal para cozinhas rústicas ou contemporâneas",
+        "price": 24.99,
+        "category": "Escritório - Prateleiras",
+        "stock": {"pequeno": 19, "médio": 21},
+        "date": "05/07/2023",
+        "size": ["pequeno", "médio"],
+        "color": ["branco"],
+        "image": "/imagens/prateleira-id40.png",
+        "reviews": [
+          {
+            "username": "Monty Kendred",
+            "score": 2,
+            "comment": "O acabamento é bonito, mas veio com um pequeno risco numa das laterais."
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "Mesa Marta",
+        "description": "Mesa com pés pretos e tampo cinzento, com design minimalista.",
+        "price": 179.99,
+        "category": "Sala - Mesas",
+        "stock": {"pequeno": 12, "grande": 17},
+        "date": "09/01/2024",
+        "size": ["pequeno", "grande"],
+        "color": ["cinzento"],
+        "image": "/imagens/mesa-id41.png",
+        "reviews": [
+          {
+            "username": "Fran Moore",
+            "score": 4,
+            "comment": "Acabamento impecável e muito resistente. Coube perfeitamente na minha sala de estar."
+          },
+          {
+            "username": "Allan Dell Casa",
+            "score": 5,
+            "comment": "Design elegante e fácil de montar."
+          },
+          {
+            "username": "Marcile Mote",
+            "score": 3,
+            "comment": "A mesa é bonita mas os pés podiam ter melhor qualidade"
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "name": "Mesa Dina",
+        "description": "Mesa redonda de madeira simples e funcional.",
+        "price": 346.78,
+        "category": "Sala - Mesas",
+        "stock": {"pequeno": 17, "médio": 16, "grande": 20},
+        "date": "06/02/2023",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/mesa-id42.png",
+        "reviews": [
+          {
+            "username": "Adelina Swindall",
+            "score": 5,
+            "comment": "Espaçosa e prática! Uso-a para pequenos almoços e jantares."
+          },
+          {
+            "username": "Davina Arnatt",
+            "score": 4,
+            "comment": "Material robusto e muito funcional."
+          },
+          {
+            "username": "Fancie Braley",
+            "score": 3,
+            "comment": "Ótima para pequenas refeições"
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "name": "Mesa Keri",
+        "description": "Mesa redonda branca de sala. Combina funcionalidade com design moderno.",
+        "price": 219.89,
+        "category": "Sala - Mesas",
+        "stock": {"médio": 14, "grande": 13},
+        "date": "02/17/2025",
+        "size": ["médio", "grande"],
+        "color": ["branco"],
+        "image": "/imagens/mesa-id43.png",
+        "reviews": [
+          {
+            "username": "Kristo Benner",
+            "score": 4,
+            "comment": "Muito útil para refeições. Recomendo."
+          },
+          {
+            "username": "Elyse McGinny",
+            "score": 5,
+            "comment": "Design simples mas funcional. Perfeita para espaços pequenos!"
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "Estante Xira",
+        "description": "Estante baixa com design moderno e várias gavetas, ideal para arrumação na sala, quarto ou escritório.",
+        "price": 109.99,
+        "category": "Sala - Estantes",
+        "stock": {"pequeno": 26, "médio": 23, "grande": 24},
+        "date": "12/06/2024",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["verde"],
+        "image": "/imagens/movel-id44.png",
+        "reviews": [
+          {
+            "username": "Loni Dinnis",
+            "score": 5,
+            "comment": "Fácil de montar e muito versátil. Estou a usar como móvel para livros e plantas."
+          },
+          {
+            "username": "Tilda Widmoor",
+            "score": 4,
+            "comment": "O design é bonito e combina com tudo. Só achei que podia ser um pouco mais profundo."
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "Mesa Rustic",
+        "description": "Mesa de jantar em madeira natural com acabamento robusto, perfeita para ambientes acolhedores e familiares.",
+        "price": 239.99,
+        "category": "Sala - Mesas",
+        "stock": {"pequeno": 17, "grande": 18},
+        "date": "12/26/2025",
+        "size": ["pequeno", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/mesa-id45.png",
+        "reviews": [
+          {
+            "username": "Joelly Peschka",
+            "score": 5,
+            "comment": "Adorei a qualidade da madeira, super resistente e ficou perfeita na minha sala de jantar."
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "Lavatório Hom",
+        "description": "Lavatório suspenso com design minimalista com tampo em cerâmica, ideal para casas de banho modernas e compactas.",
+        "price": 129.99,
+        "category": "Casa de Banho - Lavatórios",
+        "stock": {"médio": 2, "grande": 4},
+        "date": "07/10/2023",
+        "size": ["médio", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/lavatório-id46.png",
+        "reviews": [
+          {
+            "username": "Cora Cocks",
+            "score": 2,
+            "comment": "O design é bonito mas esperava um acabamento mais refinado. A entrega foi rápida."
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "Lavatório Verona",
+        "description": "Lavatório elegante com acabamento suave, perfeito para casas de banho modernas ou clássicas.",
+        "price": 299.99,
+        "category": "Casa de Banho - Lavatórios",
+        "stock": {"pequeno": 40, "médio": 38},
+        "date": "06/18/2023",
+        "size": ["pequeno", "médio"],
+        "color": ["branco"],
+        "image": "/imagens/lavatório-id47.png",
+        "reviews": [
+          {
+            "username": "Clyve De Clairmont",
+            "score": 1,
+            "comment": "O formato é bonito, mas achei que o formato não combina bem com o espaço pequeno da minha casa de banho."
+          },
+          {
+            "username": "Eileen De Mitris",
+            "score": 5,
+            "comment": "Fiquei surpreendida com a qualidade e o acabamento. Muito fácil de instalar e elegante!"
+          },
+          {
+            "username": "Webster Grishanin",
+            "score": 4,
+            "comment": "Design bonito e funcional. Combina bem com estilos mais modernos, mas podia vir com mais instruções."
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "name": "Lavatório Jessica",
+        "description": "Lavatório branco moderno com linhas retas e acabamento brilhante. ideal para casas de banho sofisticadas.",
+        "price": 174.34,
+        "category": "Casa de Banho - Lavatórios",
+        "stock": {"pequeno": 23, "médio": 22, "grande": 16},
+        "date": "04/11/2023",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["branco"],
+        "image": "/imagens/lavatório-id48.png",
+        "reviews": [
+          {
+            "username": "Andrei Hebbes",
+            "score": 5,
+            "comment": "Excelente qualidade! O lavatório tem um acabamento impecável e ficou perfeito na minha casa de banho nova."
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "name": "Lavatório Évora",
+        "description": "Lavatório branco e com madeira claro suspenso com um design elegante e moderno, ideal para casas de banho com estilo minimalista.",
+        "price": 87.36,
+        "category": "Casa de Banho - Lavatórios",
+        "stock": {"pequeno": 5, "grande": 7},
+        "date": "02/11/2024",
+        "size": ["pequeno", "grande"],
+        "color": ["branco", "castanho"],
+        "image": "/imagens/lavatório-id49.png",
+        "reviews": [
+          {
+            "username": "Weider Corke",
+            "score": 5,
+            "comment": "Design impecável! Ficou ótimo na nossa nova suite. Recomendo totalmente."
+          },
+          {
+            "username": "Cathyleen Boyett",
+            "score": 5,
+            "comment": "Boa relação qualidade-preço. É bonito e funcional, e a instalação foi simples."
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "Lavatório Gaia",
+        "description": "Lavatório contemporâneo com tampo em branco, base em preto e linhas suaves, ideal para casas de banho modernas.",
+        "price": 102.98,
+        "category": "Casa de Banho - Lavatórios",
+        "stock": {"médio": 16, "grande": 22},
+        "date": "01/30/2025",
+        "size": ["médio", "grande"],
+        "color": ["branco", "preto"],
+        "image": "/imagens/lavatório-id50.png",
+        "reviews": [
+          {
+            "username": "Ninetta Jeffs",
+            "score": 4,
+            "comment": "É exatamente como nas fotos. Fácil de limpar e encaixa perfeitamente no espaço."
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "name": "Banheira Augusta",
+        "description": "Banheira freestanding de design elegante e curvo, ideal para criar um ambiente relaxante e sofisticado na casa de banho.",
+        "price": 371.29,
+        "category": "Casa de Banho - Banheiras",
+        "stock": {"pequeno": 27, "médio": 28, "grande": 29},
+        "date": "01/05/2025",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["verde"],
+        "image": "/imagens/banheira-id51.png",
+        "reviews": [
+          {
+            "username": "Philippe Deniseau",
+            "score": 3,
+            "comment": "Boa qualidade, embora o acabamento pudesse ser um pouco mais refinado nas laterais."
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "name": "Banheira Mar",
+        "description": "Banheira de pedra cinzenta, ideal para espaços de banho contemporâneos.",
+        "price": 562.67,
+        "category": "Casa de Banho - Banheiras",
+        "stock": {"pequeno": 0, "médio": 1},
+        "date": "06/05/2024",
+        "size": ["pequeno", "médio"],
+        "color": ["cinzento"],
+        "image": "/imagens/banheira-id52.png",
+        "reviews": [
+          {
+            "username": "Charissa Burrass",
+            "score": 5,
+            "comment": "Excelente conforto e design. Ficou perfeita no meu novo apartamento!"
+          },
+          {
+            "username": "Nonnah Haxbie",
+            "score": 1,
+            "comment": "Bonita visualmente, mas veio com um pequeno defeito na base. Tive que devolver."
+          },
+          {
+            "username": "Rourke Heindrich",
+            "score": 3,
+            "comment": "Qualidade aceitável pelo preço, mas a instalação foi um pouco complicada."
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "name": "Banheira Sónia ",
+        "description": "Banheira de design moderno com estrutura de cerâmica branca, ideal para casas de banho sofisticadas e acolhedoras.",
+        "price": 389.99,
+        "category": "Casa de Banho - Banheiras",
+        "stock": {"pequeno": 22, "médio": 25},
+        "date": "04/28/2023",
+        "size": ["pequeno", "médio"],
+        "color": ["branco"],
+        "image": "/imagens/banheira-id53.png",
+        "reviews": [
+          {
+            "username": "Wallace Cinnamond",
+            "score": 4,
+            "comment": "Ficou linda no meu espaço! Só demorou um pouco na entrega."
+          },
+          {
+            "username": "Rozamond Taberer",
+            "score": 5,
+            "comment": "Excelente qualidade e acabamento. Valeu cada cêntimo!"
+          },
+          {
+            "username": "Derron Bonehill",
+            "score": 3,
+            "comment": "Muito bonita, mas podia ter mais detalhes sobre manutenção."
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "name": "Banheira Júlio",
+        "description": "Banheira oval em metal preto, com linhas suaves e rústicas. ideal para casas de banho com um toque moderno.",
+        "price": 489.00,
+        "category": "Casa de Banho - Banheiras",
+        "stock": {"pequeno": 36, "grande": 35},
+        "date": "02/19/2025",
+        "size": ["pequeno", "grande"],
+        "color": ["preto"],
+        "image": "/imagens/banheira-id54.png",
+        "reviews": [
+          {
+            "username": "Carmelia Whimpenny",
+            "score": 1,
+            "comment": "A estética é bonita, mas a banheira veio com uma pequena falha no acabamento."
+          },
+          {
+            "username": "Eward Garbert",
+            "score": 4,
+            "comment": "Muito confortável e espaçosa. Ótima para relaxar ao fim do dia!"
+          }
+        ]
+      },
+      {
+        "id": 55,
+        "name": "Banheira Brisa",
+        "description": "Banheira redonda com design ergonómico e acabamento em branco polido, ideal para ambientes de banho modernos e relaxantes.",
+        "price": 519.00,
+        "category": "Casa de Banho - Banheiras",
+        "stock": {"pequeno": 1, "grande": 9},
+        "date": "09/22/2023",
+        "size": ["pequeno", "grande"],
+        "color": ["branco"],
+        "image": "/imagens/banheira-id55.png",
+        "reviews": [
+          {
+            "username": "Benoit Bicksteth",
+            "score": 5,
+            "comment": "Design moderno e extremamente confortável. Transformou a minha casa de banho num spa!"
+          },
+          {
+            "username": "Jo-ann Guittet",
+            "score": 2,
+            "comment": "Bonita mas difícil de instalar. Recomendo verificar as meidas antes da compra."
+          }
+        ]
+      },
+      {
+        "id": 56,
+        "name": "Banheira Bambu",
+        "description": "Banheira rosa com arestas arredondadas, perfeita para casas de banho com estilo natural e relaxante.",
+        "price": 489.00,
+        "category": "Casa de Banho - Banheiras",
+        "stock": {"pequeno": 38, "médio": 35, "grande": 30},
+        "date": "11/17/2024",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["rosa"],
+        "image": "/imagens/banheira-id56.png",
+        "reviews": [
+          {
+            "username": "Rycca Amiable",
+            "score": 2,
+            "comment": "O design é bonito, mas o espaço interior é um pouco apertado para pessoas altas."
+          },
+          {
+            "username": "Berkie Gress",
+            "score": 3,
+            "comment": "Combina bem com decoração natural, mas poderia ter melhor isolamento térmico."
+          },
+          {
+            "username": "Agace Whopples",
+            "score": 5,
+            "comment": "Adoro esta banheira! Estética impecável e muito confortável para longos banhos."
+          }
+        ]
+      },
+      {
+        "id": 57,
+        "name": "Sapateira Álamo",
+        "description": "Sapateira em metal preto com estrutura aberta e linhas modernas. ideal para halls de entrada organizados com estilo.",
+        "price": 129.90,
+        "category": "Hall - Sapateiras",
+        "stock": {"médio": 30, "grande": 29},
+        "date": "01/07/2023",
+        "size": ["médio", "grande"],
+        "color": ["preto"],
+        "image": "/imagens/sapateira-id57.png",
+        "reviews": [
+          {
+            "username": "Ulysses Bryer",
+            "score": 5,
+            "comment": "Muito prática! Cabe perfeitamente no hall e tem espaço para todos os pares do dia-a-dia."
+          },
+          {
+            "username": "Wally Ramiro",
+            "score": 1,
+            "comment": "Design bonito, mas as prateleiras são pouco fundas para sapatos maiores."
+          }
+        ]
+      },
+      {
+        "id": 58,
+        "name": "Armário Bétula",
+        "description": "Armário alto em madeira natural com acabamento liso e portas discretas. ideal para guardar roupa ou objetos em qualquer divisão da casa.",
+        "price": 219.99,
+        "category": "Quarto - Armários",
+        "stock": {"pequeno": 21, "grande": 23},
+        "date": "01/12/2023",
+        "size": ["pequeno", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/armário-id58.png",
+        "reviews": [
+          {
+            "username": "Susanne Jzhakov",
+            "score": 1,
+            "comment": "A estrutura é frágil e as portas não alinham bem. Bonito mas decepcionante."
+          },
+          {
+            "username": "Dorelia Camelin",
+            "score": 3,
+            "comment": "Design elegante e bom espaço interior, mas a montagem foi um pouco complicada."
+          },
+          {
+            "username": "Camey Wightman",
+            "score": 1,
+            "comment": "Esperava mais qualidade pelo preço. As prateleiras são finas e pouco resistentes."
+          }
+        ]
+      },
+      {
+        "id": 59,
+        "name": "Sapateira Nord",
+        "description": "Sapateira de madeira bege com design funcional e prateleiras abertas. ideal para organizar calçado na entrada ou no quarto.",
+        "price": 79.99,
+        "category": "Hall - Sapateiras",
+        "stock": {"pequeno": 31, "médio": 27},
+        "date": "09/09/2024",
+        "size": ["pequeno", "médio"],
+        "color": ["bege"],
+        "image": "/imagens/sapateira-id59.png",
+        "reviews": [
+          {
+            "username": "Ian Wile",
+            "score": 2,
+            "comment": "É bonita mas esperava que fosse mais robusta. Serve para uso leve, mas não para calçado pesado."
+          }
+        ]
+      },
+      {
+        "id": 60,
+        "name": "Sapateira Noris",
+        "description": "Sapateira de metal branco com rodas e cabide embutido. Uma solução prática e estética para manter os sapatos organizados.",
+        "price": 64.99,
+        "category": "Hall - Sapateiras",
+        "stock": {"médio": 1, "grande": 1},
+        "date": "01/13/2025",
+        "size": ["médio", "grande"],
+        "color": ["branco"],
+        "image": "/imagens/sapateira-id60.png",
+        "reviews": [
+          {
+            "username": "Leila Goracci",
+            "score": 3,
+            "comment": "Fácil de montar e ocupa pouco espaço. Só achei que podia ser um pouco mais firme."
+          }
+        ]
+      },
+      {
+        "id": 61,
+        "name": "Mesa Berlin",
+        "description": "Mesa de apoio em madeira azul com estrutura minimalista. ideal para salas modernas ou quartos aconchegantes.",
+        "price": 229.99,
+        "category": "Sala - Mesas",
+        "stock": {"pequeno": 12, "médio": 9, "grande": 11},
+        "date": "03/19/2024",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["azul"],
+        "image": "/imagens/mesa-id61.png",
+        "reviews": [
+          {
+            "username": "Townsend Muldowney",
+            "score": 1,
+            "comment": "A mesa é bonita mas chegou com uma perna ligeiramente empenada."
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "name": "Cabide Orogen",
+        "description": "Cabide elegante com estrutura robusta bege, ideal para quartos ou halls de entrada.",
+        "price": 84.90,
+        "category": "Hall - Cabides",
+        "stock": {"pequeno": 16, "grande": 17},
+        "date": "10/18/2023",
+        "size": ["pequeno", "grande"],
+        "color": ["bege"],
+        "image": "/imagens/cabide-id62.png",
+        "reviews": [
+          {
+            "username": "Paola Stormouth",
+            "score": 1,
+            "comment": "A estrutura é bonita, mas balança um pouco se estiver muito cheio."
+          },
+          {
+            "username": "Sayres Moult",
+            "score": 2,
+            "comment": "Visualmente é moderno, mas esperava uma base mais pesada para maior estabilidade."
+          }
+        ]
+      },
+      {
+        "id": 63,
+        "name": "Cabide Loft",
+        "description": "Cabide metálico com design industrial e estrutura robusta, ideal para espaços modernos.",
+        "price": 74.90,
+        "category": "Hall - Cabides",
+        "stock": {"pequeno": 15, "médio": 25, "grande": 24},
+        "date": "03/24/2025",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/cabide-id63.png",
+        "reviews": [
+          {
+            "username": "Amye Smeeton",
+            "score": 1,
+            "comment": "Esteticamente é bonito, mas o gancho de cima podia ser mais largo para casacos pesados."
+          }
+        ]
+      },
+      {
+        "id": 64,
+        "name": "Estante Caldas",
+        "description": "Estante em madeira clara com linhas diagonáis e prateleiras fechadas, perfeita para guardar livros e outras arrumações em salas ou quartos com luz natural.",
+        "price": 129.00,
+        "category": "Sala - Estantes",
+        "stock": {"pequeno": 0, "grande": 0},
+        "date": "05/10/2024",
+        "size": ["pequeno", "grande"],
+        "color": ["branco"],
+        "image": "/imagens/estante-id64.png",
+        "reviews": [
+          {
+            "username": "Onfroi Kew",
+            "score": 4,
+            "comment": "Estante muito bonita e sólida, só gostava que as prateleiras fossem um pouco mais fundas."
+          }
+        ]
+      },
+      {
+        "id": 65,
+        "name": "Estante Boreal",
+        "description": "Estante de madeira com tom laranja, prateleiras espaçadas e design minimalista, ideal para ambientes modernos e nórdicos. Possui uma estrutura metálica que dá um ar moderno",
+        "price": 139.90,
+        "category": "Sala - Estantes",
+        "stock": {"pequeno": 2, "médio": 8, "grande": 14},
+        "date": "04/01/2024",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["laranja"],
+        "image": "/imagens/estante-id65.png",
+        "reviews": [
+          {
+            "username": "Pepi Portugal",
+            "score": 1,
+            "comment": "O material vinha um pouco danificado. De resto, parece resistente."
+          },
+          {
+            "username": "Gannie d' Eye",
+            "score": 1,
+            "comment": "Gostei do design mas o tamanho era menor do que eu esperava."
+          }
+        ]
+      },
+      {
+        "id": 66,
+        "name": "Armário Ucra",
+        "description": "Armário compacto com acabamento em cinza opaco. ideal para espaços modernos e para manter a organização sem comprometer o estilo.",
+        "price": 169.90,
+        "category": "Quarto - Armários",
+        "stock": {"médio": 32, "grande": 33},
+        "date": "12/05/2024",
+        "size": ["médio", "grande"],
+        "color": ["cinzento", "preto"],
+        "image": "/imagens/armário-id66.png",
+        "reviews": [
+          {
+            "username": "Virginia Rosenbaum",
+            "score": 2,
+            "comment": "O design é bonito, mas esperava um pouco mais de espaço interno."
+          },
+          {
+            "username": "Arliene MacPhaden",
+            "score": 1,
+            "comment": "A estrutura é frágil, precisei reforçar com suportes extras."
+          }
+        ]
+      },
+      {
+        "id": 67,
+        "name": "Armário Eclipse",
+        "description": "Armário alto branco sem portas e com muita arrumação. ideal para quem procura elegância e funcionalidade em ambientes modernos.",
+        "price": 219.00,
+        "category": "Quarto - Armários",
+        "stock": {"pequeno": 31, "médio": 44, "grande": 41},
+        "date": "03/05/2025",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["branco"],
+        "image": "/imagens/armário-id67.png",
+        "reviews": [
+          {
+            "username": "Nathaniel Bricksey",
+            "score": 4,
+            "comment": "Bastante espaçoso e com ótimo acabamento, só tive dificuldade no transporte."
+          },
+          {
+            "username": "Marika Thomassin",
+            "score": 1,
+            "comment": "Visualmente bonito, mas o material é mais leve do que esperava."
+          }
+        ]
+      },
+      {
+        "id": 68,
+        "name": "Armário Cedro",
+        "description": "Armário moderno de metal, com cor bege e perfeito para quem procura uma peça contemporânea.",
+        "price": 189.00,
+        "category": "Quarto - Armários",
+        "stock": {"pequeno": 21, "médio": 18},
+        "date": "01/13/2024",
+        "size": ["pequeno", "médio"],
+        "color": ["bege"],
+        "image": "/imagens/armário-id68.png",
+        "reviews": [
+          {
+            "username": "Lethia Ramalhete",
+            "score": 2,
+            "comment": "Gostei do visual, mas esperava um pouco mais de robustez nas prateleiras internas."
+          },
+          {
+            "username": "Hally O'Fairy",
+            "score": 2,
+            "comment": "Design bonito, mas o sistema de montagem poderia ser mais intuitivo."
+          },
+          {
+            "username": "Abdel Richardt",
+            "score": 4,
+            "comment": "Ficou excelente no meu quarto, muito espaçoso e combina com tudo."
+          }
+        ]
+      },
+      {
+        "id": 69,
+        "name": "Armário Simpo",
+        "description": "Armário elegante de duas portas em madeira natural. ideal para quartos modernos que procuram sofisticação com simplicidade.",
+        "price": 229.00,
+        "category": "Quarto - Armários",
+        "stock": {"pequeno": 18, "médio": 17},
+        "date": "03/03/2023",
+        "size": ["pequeno", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/armário-id69.png",
+        "reviews": [
+          {
+            "username": "Dimitry Fawthorpe",
+            "score": 1,
+            "comment": "Bonito, mas tive dificuldades com o encaixe das portas. Precisei ajustar as dobradiças."
+          },
+          {
+            "username": "Pearline Forson",
+            "score": 1,
+            "comment": "O design é bom, mas o material parecia mais robusto nas fotos. Chegou com uma pequena falha no acabamento."
+          }
+        ]
+      },
+      {
+        "id": 70,
+        "name": "Armário Porto",
+        "description": "Armário espaçoso com portas elegantes e estrutura de madeira robusta. Um toque de design nórdico para qualquer divisão da casa.",
+        "price": 249.90,
+        "category": "Quarto - Armários",
+        "stock": {"pequeno": 38, "médio": 32, "grande": 33},
+        "date": "01/17/2023",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/armário-id70.png",
+        "reviews": [
+          {
+            "username": "Hazlett Biasioni",
+            "score": 3,
+            "comment": "Design moderno e bonito, mas o interior podia ter mais prateleiras ajustáveis."
+          },
+          {
+            "username": "Henka Ricoald",
+            "score": 3,
+            "comment": "Fácil de montar e combina bem com a decoração, mas demorou a ser entregue."
+          }
+        ]
+      },
+    {
+        "id": 71,
+        "name": "Mesa de Centro Nilo",
+        "description": "Mesa de centro com design minimalista em tons neutros, ideal para salas modernas. Combina funcionalidade com estética contemporânea.",
+        "price": 139.90,
+        "category": "Sala - Mesas de Centro",
+        "stock": {"pequeno": 4, "médio": 1, "grande": 2},
+        "date": "03/31/2023",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["preto"],
+        "image": "/imagens/mesa-de-centro-id71.png",
+        "reviews": [
+          {
+            "username": "Sonia Postins",
+            "score": 4,
+            "comment": "Muito bonita e combina bem com o sofá, só acho que podia ser um pouco mais alta."
+          },
+          {
+            "username": "Amil Bevis",
+            "score": 3,
+            "comment": "Entrega rápida e produto conforme descrito, mas veio com uma pequena lasca num canto."
+          }
+        ]
+      },
+      {
+        "id": 72,
+        "name": "Mesa de Centro Ayra",
+        "description": "Mesa de centro baixa com estrutura robusta em madeira e tampo riscado. ideal para compor salas com estilo contemporâneo e acolhedor.",
+        "price": 149.00,
+        "category": "Sala - Mesas de Centro",
+        "stock": {"pequeno": 38, "grande": 27},
+        "date": "01/12/2025",
+        "size": ["pequeno", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/mesa-de-centro-id72.png",
+        "reviews": [
+          {
+            "username": "Serene Kirsche",
+            "score": 1,
+            "comment": "O design é bonito, mas a mesa veio com um pequeno defeito no pé traseiro."
+          },
+          {
+            "username": "Esdras Wellstead",
+            "score": 4,
+            "comment": "Boa qualidade pelo preço, fácil de montar e muito estável no chão."
+          },
+          {
+            "username": "Ellerey Bales",
+            "score": 5,
+            "comment": "Fiquei surpreendido com a solidez da mesa. Ficou perfeita na minha sala!"
+          }
+        ]
+      },
+      {
+        "id": 73,
+        "name": "Mesa de Centro Elara",
+        "description": "Mesa de centro em tom claro com design funcional e elegante. Perfeita para ambientes minimalistas ou escandinavos.",
+        "price": 139.00,
+        "category": "Sala - Mesas de Centro",
+        "stock": {"médio": 24, "grande": 25},
+        "date": "03/22/2025",
+        "size": ["médio", "grande"],
+        "color": ["branco"],
+        "image": "/imagens/mesa-de-centro-id73.png",
+        "reviews": [
+          {
+            "username": "Raffarty Fenton",
+            "score": 4,
+            "comment": "A mesa é bonita e leve. ideal para espaços pequenos e com decoração clean."
+          }
+        ]
+      },
+      {
+        "id": 74,
+        "name": "Mesa de Centro Arven",
+        "description": "Mesa de centro de metal cinza com linhas retas. ideal para salas modernas e aconchegantes.",
+        "price": 169.00,
+        "category": "Sala - Mesas de Centro",
+        "stock": {"médio": 20, "grande": 30},
+        "date": "03/17/2023",
+        "size": ["médio", "grande"],
+        "color": ["cinzento"],
+        "image": "/imagens/mesa-de-centro-id74.png",
+        "reviews": [
+          {
+            "username": "Debor Heggman",
+            "score": 2,
+            "comment": "O design é bonito, mas achei a montagem um pouco trabalhosa."
+          },
+          {
+            "username": "Toddy Rowlstone",
+            "score": 1,
+            "comment": "Recebi com uma perna ligeiramente riscada. Fora isso, é funcional."
+          },
+          {
+            "username": "Marge Trehearn",
+            "score": 1,
+            "comment": "Esperava uma estrutura mais sólida. Não sei se vai durar muito tempo."
+          }
+        ]
+      },
+      {
+        "id": 75,
+        "name": "Mesa de Centro Hólm",
+        "description": "Mesa de centro de vidro transparente com acabamento redondo, perfeita para salas com estilo escandinavo ou minimalista.",
+        "price": 189.90,
+        "category": "Sala - Mesas de Centro",
+        "stock": {"pequeno": 39, "médio": 38, "grande": 23},
+        "date": "04/08/2024",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["branco"],
+        "image": "/imagens/mesa-de-centro-id75.png",
+        "reviews": [
+          {
+            "username": "Kort Copeman",
+            "score": 3,
+            "comment": "É bonita e combina com o meu sofá, mas achei um pouco baixa para o meu gosto."
+          }
+        ]
+      },
+      {
+        "id": 76,
+        "name": "Mesa de Centro Arendal",
+        "description": "Mesa de centro com tampo em cerâmica clara e estrutura robusta em madeira clara. ideal para salas modernas com um toque industrial.",
+        "price": 219.00,
+        "category": "Sala - Mesas de Centro",
+        "stock": {"médio": 31, "grande": 30},
+        "date": "07/23/2024",
+        "size": ["pequeno", "médio"],
+        "color": ["bege"],
+        "image": "/imagens/mesa-de-centro-id76.png",
+        "reviews": [
+          {
+            "username": "Meryl O'Boyle",
+            "score": 1,
+            "comment": "A mesa chegou com um pé um pouco solto. Nada que não se resolva, mas esperava mais pelo preço."
+          }
+        ]
+      },
+      {
+        "id": 77,
+        "name": "Mesa de Centro Fjord",
+        "description": "Design minimalista com linhas curvas de pedra pedra. Uma peça versátil para complementar salas modernas ou escandinavas.",
+        "price": 189.00,
+        "category": "Sala - Mesas de Centro",
+        "stock": {"pequeno": 31, "médio": 12},
+        "date": "12/06/2024",
+        "size": ["pequeno", "médio"],
+        "color": ["preto"],
+        "image": "/imagens/mesa-de-centro-id77.png",
+        "reviews": [
+          {
+            "username": "Anica Ormes",
+            "score": 2,
+            "comment": "O visual é bonito, mas achei um pouco baixa para o meu sofá."
+          },
+          {
+            "username": "Vernor Barus",
+            "score": 4,
+            "comment": "Fácil de montar e combina bem com o restante da decoração. Boa compra."
+          },
+          {
+            "username": "Cyril Rayson",
+            "score": 1,
+            "comment": "Veio com um risco pequeno no tampo, infelizmente."
+          }
+        ]
+      },
+      {
+        "id": 78,
+        "name": "Cadeira de Escritório Terce",
+        "description": "Cadeira ergonómica com encosto curvo e estrutura branca e cinza. ideal para longas horas de trabalho com conforto e estilo.",
+        "price": 129.90,
+        "category": "Escritório - Cadeiras de Escritório",
+        "stock": {"pequeno": 15, "grande": 30},
+        "date": "03/29/2025",
+        "size": ["pequeno", "grande"],
+        "color": ["cinzento", "branco"],
+        "image": "/imagens/cadeira-escritório-id78.png",
+        "reviews": [
+          {
+            "username": "Jarid Costy",
+            "score": 1,
+            "comment": "Bonita, mas achei o assento um pouco rígido para uso prolongado."
+          },
+          {
+            "username": "Hendrick Bann",
+            "score": 2,
+            "comment": "A base parece frágil, mas cumpre bem a função no dia a dia."
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "name": "Cadeira de Escritório Lumi",
+        "description": "Cadeira de escritório com encosto de pele castanha e design moderno. Perfeita para espaços de trabalho produtivos e elegantes.",
+        "price": 114.90,
+        "category": "Escritório - Cadeiras de Escritório",
+        "stock": {"pequeno": 6, "médio": 7, "grande": 6},
+        "date": "02/01/2025",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/cadeira-escritório-id79.png",
+        "reviews": [
+          {
+            "username": "Stefanie Benedite",
+            "score": 2,
+            "comment": "O visual é ótimo, mas o apoio lombar podia ser mais confortável."
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "name": "Cadeira de Escritório Rati",
+        "description": "Cadeira ergonómica com design elegante e estrutura leve, ideal para longas horas de trabalho em ambientes modernos.",
+        "price": 139.00,
+        "category": "Escritório - Cadeiras de Escritório",
+        "stock": {"pequeno": 20, "médio": 19, "grande": 25},
+        "date": "02/22/2024",
+        "size": ["pequeno", "grande"],
+        "color": ["preto"],
+        "image": "/imagens/cadeira-escritório-id80.png",
+        "reviews": [
+          {
+            "username": "Papagena Curnokk",
+            "score": 1,
+            "comment": "Visual moderno, mas o assento torna-se desconfortável após algumas horas."
+          },
+          {
+            "username": "Adiana Feaver",
+            "score": 1,
+            "comment": "Esperava mais ergonomia pelo preço. Não recomendo para uso prolongado."
+          }
+        ]
+      },
+      {
+        "id": 81,
+        "name": "Cadeira de Escritório Gaslow",
+        "description": "Cadeira de escritório robusta com encosto baixo e acabamento em tecido resistente, ideal para escritórios profissionais ou home office sofisticado.",
+        "price": 159.90,
+        "category": "Escritório - Cadeiras de Escritório",
+        "stock": {"médio": 36, "grande": 34},
+        "date": "01/03/2023",
+        "size": ["médio", "grande"],
+        "color": ["preto"],
+        "image": "/imagens/cadeira-escritório-id81.png",
+        "reviews": [
+          {
+            "username": "Zilvia Willoughby",
+            "score": 5,
+            "comment": "Muito confortável e com um ótimo suporte lombar. Excelente para quem passa muitas horas ao computador."
+          },
+          {
+            "username": "Angelico D'Ruel",
+            "score": 2,
+            "comment": "A cadeira é bonita, mas achei o encosto um pouco rígido demais para o meu gosto."
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "name": "Cadeira Guine",
+        "description": "Cadeira de design minimalista com encosto almofadado e assento acolchoado em bege. ideal para salas de jantar modernas ou espaços de leitura.",
+        "price": 84.90,
+        "category": "Sala - Cadeiras",
+        "stock": {"médio": 18, "grande": 24},
+        "date": "07/31/2023",
+        "size": ["médio", "grande"],
+        "color": ["bege"],
+        "image": "/imagens/cadeira-id82.png",
+        "reviews": [
+          {
+            "username": "Heinrick Orbine",
+            "score": 5,
+            "comment": "A estrutura em madeira é resistente e o design combina com praticamente qualquer estilo de decoração."
+          },
+          {
+            "username": "Gare Leggate",
+            "score": 1,
+            "comment": "A montagem foi um pouco complicada e o manual não era muito claro."
+          },
+          {
+            "username": "Corny Humby",
+            "score": 2,
+            "comment": "Bonita visualmente, mas achei o assento um pouco duro para longos períodos."
+          }
+        ]
+      },
+      {
+        "id": 83,
+        "name": "Cadeira Furlani",
+        "description": "Cadeira de escritório com apoio ergonómico, estrutura giratória e assento almofadado para máximo conforto durante longas horas de trabalho.",
+        "price": 139.90,
+        "category": "Escritório - Cadeiras de Escritório",
+        "stock": {"pequeno":4, "grande": 7},
+        "date": "04/07/2024",
+        "size": ["pequeno", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/cadeira-escritório-id83.png",
+        "reviews": [
+          {
+            "username": "Gwynne Macveigh",
+            "score": 3,
+            "comment": "Muito confortável, mas o encosto podia ser um pouco mais alto para apoio total das costas."
+          }
+        ]
+      },
+      {
+        "id": 84,
+        "name": "Cadeira Parma",
+        "description": "Cadeira elegante em tecido preto com encosto curvo e pernas em madeira clara. ideal para salas de jantar modernas ou espaços de reunião com estilo.",
+        "price": 89.90,
+        "category": "Sala - Cadeiras",
+        "stock": {"pequeno": 37, "médio": 40, "grande": 36},
+        "date": "04/13/2025",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["preto"],
+        "image": "/imagens/cadeira-id84.png",
+        "reviews": [
+          {
+            "username": "Gerek Mingasson",
+            "score": 4,
+            "comment": "A cadeira é confortável e bonita, mas o tecido podia ser um pouco mais resistente a nódoas."
+          }
+        ]
+      },
+      {
+        "id": 85,
+        "name": "Armário Ágata",
+        "description": "Armário de cozinha em madeira azul com prateleiras abertas. Combina funcionalidade com um design escandinavo, ideal para ambientes luminosos e organizados.",
+        "price": 189.90,
+        "category": "Cozinha - Armários",
+        "stock": {"pequeno": 15, "grande": 19},
+        "date": "08/18/2023",
+        "size": ["pequeno", "grande"],
+        "color": ["azul"],
+        "image": "/imagens/armário-cozinha-id85.png",
+        "reviews": [
+          {
+            "username": "Alix Cessford",
+            "score": 3,
+            "comment": "O armário é muito bonito, mas é um pouco robusto."
+          },
+          {
+            "username": "Hedy Pickburn",
+            "score": 5,
+            "comment": "Excelente qualidade e muito espaço de arrumação! Ficou perfeito na minha cozinha."
+          },
+          {
+            "username": "Phylis Dafter",
+            "score": 2,
+            "comment": "Chegou com um pequeno arranhão na parte de trás, mas nada de grave."
+          }
+        ]
+      },
+      {
+        "id": 86,
+        "name": "Armário Vime",
+        "description": "Armário de cozinha em madeira natural em tons de bege, com portas ripadas e design minimalista. ideal para armazenar utensílios ou alimentos secos.",
+        "price": 179.90,
+        "category": "Cozinha - Armários",
+        "stock": {"pequeno": 16, "médio": 18, "grande": 28},
+        "date": "01/17/2024",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["bege"],
+        "image": "/imagens/armário-cozinha-id86.png",
+        "reviews": [
+          {
+            "username": "Terese Bagehot",
+            "score": 4,
+            "comment": "Boa qualidade e muito elegante. A montagem foi um pouco demorada, mas valeu a pena."
+          },
+          {
+            "username": "Guilbert Minghetti",
+            "score": 3,
+            "comment": "Design bonito, mas esperava um pouco mais de espaço interno."
+          }
+        ]
+      },
+      {
+        "id": 87,
+        "name": "Armário Zen",
+        "description": "Armário de cozinha em madeira escura com prateleiras internas e portas sólidas. Perfeito para cozinhas clássicas com um toque rústico.",
+        "price": 219.00,
+        "category": "Cozinha - Armários",
+        "stock": {"médio": 17, "grande": 18},
+        "date": "02/04/2025",
+        "size": ["médio", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/armário-cozinha-id87.png",
+        "reviews": [
+          {
+            "username": "Shepherd Elger",
+            "score": 3,
+            "comment": "Tem bastante espaço, mas o acabamento podia ser um pouco mais suave ao toque."
+          }
+        ]
+      },
+      {
+        "id": 88,
+        "name": "Armário Alvor",
+        "description": "Armário de cozinha com design contemporâneo, acabamento ripado e estrutura funcional com duas portas e prateleiras.",
+        "price": 189.00,
+        "category": "Cozinha - Armários",
+        "stock": {"pequeno": 35, "grande": 51},
+        "date": "05/26/2024",
+        "size": ["pequeno", "grande"],
+        "color": ["branco"],
+        "image": "/imagens/armário-cozinha-id88.png",
+        "reviews": [
+          {
+            "username": "Shannan Murrells",
+            "score": 3,
+            "comment": "É bonito e combina com a cozinha, mas o material podia ser um pouco mais resistente."
+          }
+        ]
+      },
+      {
+        "id": 89,
+        "name": "Armário Ramo",
+        "description": "Armário de cozinha com acabamento cinza e linhas limpas. ideal para ambientes modernos e funcionais.",
+        "price": 175.00,
+        "category": "Cozinha - Armários",
+        "stock": {"pequeno": 22, "médio": 21},
+        "date": "08/27/2023",
+        "size": ["pequeno", "médio"],
+        "color": ["cinzento"],
+        "image": "/imagens/armário-cozinha-id89.png",
+        "reviews": [
+          {
+            "username": "Glori Chaudrelle",
+            "score": 4,
+            "comment": "Fácil de montar e o visual é super clean, ficou ótimo na minha cozinha."
+          },
+          {
+            "username": "Pincus Seemmonds",
+            "score": 5,
+            "comment": "Espaçoso e elegante. A entrega foi rápida e tudo veio bem embalado."
+          },
+          {
+            "username": "Clea Picopp",
+            "score": 3,
+            "comment": "Gostei bastante, mas uma das portas veio um pouco desalinhada. Consegui ajustar."
+          }
+        ]
+      },
+      {
+        "id": 90,
+        "name": "Candeeiro Carrolo",
+        "description": "Candeeiro de chão com design contemporâneo e estrutura de madeira elegante. Perfeito para salas ou cozinhas modernas.",
+        "price": 129.00,
+        "category": "Escritório - Candeeiros",
+        "stock": {"pequeno": 16, "médio": 13},
+        "date": "12/14/2023",
+        "size": ["pequeno", "médio"],
+        "color": ["branco"],
+        "image": "/imagens/candeeiro-id90.png",
+        "reviews": [
+          {
+            "username": "Xymenes Darkin",
+            "score": 4,
+            "comment": "Muito bonito e ilumina bem. Só acho que podia ser um pouco mais alto."
+          },
+          {
+            "username": "Ramsay Burberow",
+            "score": 4,
+            "comment": "Ficou incrível sobre junto à mesa de jantar! Fácil de instalar e bom acabamento."
+          }
+        ]
+      },
+      {
+        "id": 91,
+        "name": "Candeeiro Bruna",
+        "description": "Candeeiro de chão com estrutura em metal preto, ideal para ambientes acolhedores como salas de jantar ou cozinhas com estilo rústico moderno.",
+        "price": 89.00,
+        "category": "Escritório - Candeeiros",
+        "stock": {"pequeno": 4, "médio": 1, "grande": 2},
+        "date": "03/05/2024",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["preto"],
+        "image": "/imagens/candeeiro-id91.png",
+        "reviews": [
+          {
+            "username": "Mycah Vernalls",
+            "score": 5,
+            "comment": "Design fantástico! O metal dá um toque muito elegante e acolhedor ao espaço."
+          },
+          {
+            "username": "Pennie Dalliwater",
+            "score": 4,
+            "comment": "É exatamente o que procurava para a minha cozinha aberta. Só demorou um pouco a instalar."
+          }
+        ]
+      },
+      {
+        "id": 92,
+        "name": "Candeeiro Alva",
+        "description": "Candeeiro de chão de madeira clara com linhas modernas, ideal para ambientes contemporâneos como salas, cozinhas ou halls de entrada.",
+        "price": 74.90,
+        "category": "Escritório - Candeeiros",
+        "stock": {"médio": 18, "grande": 11},
+        "date": "02/28/2024",
+        "size": ["médio", "grande"],
+        "color": ["branco", "castanho"],
+        "image": "/imagens/candeeiro-id92.png",
+        "reviews": [
+          {
+            "username": "Eddi Ing",
+            "score": 3,
+            "comment": "Bonito, mas esperava ser um pouco maior. Ainda assim, cumpre bem a função e ilumina bem."
+          },
+          {
+            "username": "Elane Tollerfield",
+            "score": 4,
+            "comment": "Ficou ótimo na entrada da casa. A luz é suave e o design elegante."
+          }
+        ]
+      },
+      {
+        "id": 93,
+        "name": "Candeeiro Ferrovia",
+        "description": "Candeeiro de chão em metal escuro com design industrial vintage, ideal para cozinhas modernas, bares ou lofts com personalidade.",
+        "price": 64.90,
+        "category": "Escritório - Candeeiros",
+        "stock": {"médio": 13, "grande": 12},
+        "date": "02/03/2025",
+        "size": ["médio", "grande"],
+        "color": ["cinzento"],
+        "image": "/imagens/candeeiro-id93.png",
+        "reviews": [
+          {
+            "username": "Gusti Yapp",
+            "score": 2,
+            "comment": "Esteticamente é bonito, mas a lâmpada fica muito exposta. Preferia algo mais suave."
+          },
+          {
+            "username": "Daveta Bunson",
+            "score": 4,
+            "comment": "Perfeito para uma cozinha. Iluminação direta e estilo moderno."
+          },
+          {
+            "username": "Timmy Bruty",
+            "score": 3,
+            "comment": "Bom produto, mas a instalação foi um pouco complicada. No geral, gostei."
+          }
+        ]
+      },
+      {
+        "id": 94,
+        "name": "Candeeiro Paz",
+        "description": "Candeeiro amarelo com design arredondado, ideal para salas de jantar ou halls elegantes com um toque contemporâneo.",
+        "price": 84.90,
+        "category": "Escritório - Candeeiros",
+        "stock": {"pequeno": 2, "médio": 2},
+        "date": "08/20/2024",
+        "size": ["pequeno", "médio"],
+        "color": ["amarelo"],
+        "image": "/imagens/candeeiro-id94.png",
+        "reviews": [
+          {
+            "username": "Josephine Coldridge",
+            "score": 4,
+            "comment": "A luz é suave e elegante, mas o cabo podia ser um pouco mais longo."
+          },
+          {
+            "username": "Calypso Blockey",
+            "score": 3,
+            "comment": "Design lindíssimo, mas tive dificuldade em fixar corretamente o suporte."
+          },
+          {
+            "username": "Hernando Peterkin",
+            "score": 5,
+            "comment": "Iluminação perfeita para o hall de entrada. Adoro o estilo moderno e leve."
+          }
+        ]
+      },
+      {
+        "id": 95,
+        "name": "Candeeiro Pani",
+        "description": "Candeeiro de chão moderno em acabamento branco com luz difusa, perfeito para cozinhas ou espaços de trabalho com estilo clean e funcional.",
+        "price": 69.90,
+        "category": "Escritório - Candeeiros",
+        "stock": {"pequeno": 3, "médio": 2, "grande":6},
+        "date": "03/28/2023",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/candeeiro-id95.png",
+        "reviews": [
+          {
+            "username": "Penni Lillicrop",
+            "score": 4,
+            "comment": "Iluminação suave, ficou ótimo na cozinha! Só podia vir com instruções mais claras."
+          },
+          {
+            "username": "Ema Simmens",
+            "score": 1,
+            "comment": "A peça chegou com um risco na madeira, infelizmente vou ter de devolver."
+          },
+          {
+            "username": "Anneliese Prior",
+            "score": 2,
+            "comment": "Visual bonito, mas não ilumina tanto quanto esperava."
+          }
+        ]
+      },
+      {
+        "id": 96,
+        "name": "Cadeira Suspensa Ambar",
+        "description": "Cadeira suspensa em vime com almofada clara, ideal para relaxar em varandas, salas ou espaços de leitura.",
+        "price": 189.00,
+        "category": "Exterior - Cadeiras Suspensas",
+        "stock": {"pequeno": 30,"grande": 29},
+        "date": "11/03/2024",
+        "size": ["pequeno", "grande"],
+        "color": ["branco"],
+        "image": "/imagens/cadeira-suspensa-id96.png",
+        "reviews": [
+          {
+            "username": "Dorthy Sweatland",
+            "score": 5,
+            "comment": "Simplesmente adoro! Fica linda na minha varanda e é super confortável."
+          },
+          {
+            "username": "Halsy Folomin",
+            "score": 2,
+            "comment": "A montagem foi um pouco complicada e o assento podia ser mais largo."
+          },
+          {
+            "username": "Merrill Lillgard",
+            "score": 1,
+            "comment": "A estrutura balança demasiado e não me senti segura a usar."
+          }
+        ]
+      },
+      {
+        "id": 97,
+        "name": "Cadeira Suspensa Sol",
+        "description": "Cadeira suspensa estilo boho com rede em corda resistente e almofada bege, perfeita para ambientes interiores e exteriores.",
+        "price": 149.00,
+        "category": "Exterior - Cadeiras Suspensas",
+        "stock": {"pequeno": 34, "médio": 39},
+        "date": "01/27/2023",
+        "size": ["pequeno", "médio"],
+        "color": ["bege"],
+        "image": "/imagens/cadeira-suspensa-id97.png",
+        "reviews": [
+          {
+            "username": "Sonya O'Sheerin",
+            "score": 5,
+            "comment": "Estilo maravilhoso e super confortável. Combinei com luzinhas e ficou um cantinho mágico!"
+          },
+          {
+            "username": "Wayne McCrorie",
+            "score": 5,
+            "comment": "Muito relaxante e fácil de instalar. ideal para ler ou simplesmente balançar ao som de música."
+          },
+          {
+            "username": "Minnaminnie Brabbins",
+            "score": 1,
+            "comment": "A corda começou a desfiar após poucas semanas. Não recomendo para uso intenso."
+          }
+        ]
+      },
+      {
+        "id": 98,
+        "name": "Cadeira Suspensa Boho",
+        "description": "Cadeira suspensa com estrutura em madeira e assento em corda trançada, ideal para relaxar em varandas ou interiores iluminados.",
+        "price": 179.00,
+        "category": "Exterior - Cadeiras Suspensas",
+        "stock": {"pequeno": 9, "médio": 10, "grande": 17},
+        "date": "01/09/2025",
+        "size": ["pequeno", "médio", "grande"],
+        "color": ["cinzento"],
+        "image": "/imagens/cadeira-suspensa-id98.png",
+        "reviews": [
+          {
+            "username": "Leonerd MacGee",
+            "score": 5,
+            "comment": "Design incrível e super confortável. Dá um charme especial à minha sala!"
+          },
+          {
+            "username": "Piper Adelberg",
+            "score": 3,
+            "comment": "Muito bonita, mas o assento podia ser um pouco mais almofadado."
+          }
+        ]
+      },
+      {
+        "id": 99,
+        "name": "Cadeira Suspensa Celeste",
+        "description": "Cadeira suspensa em vime sintético com almofada integrada, perfeita para varandas, salas de leitura ou cantos de descanso.",
+        "price": 189.00,
+        "category": "Exterior - Cadeiras Suspensas",
+        "stock": {"pequeno": 24,"grande": 28},
+        "date": "03/23/2023",
+        "size": ["pequeno", "grande"],
+        "color": ["castanho"],
+        "image": "/imagens/cadeira-suspensa-id99.png",
+        "reviews": [
+          {
+            "username": "Trevor Stang-Gjertsen",
+            "score": 3,
+            "comment": "É bonita e confortável, mas o suporte balança mais do que eu esperava."
+          }
+        ]
+      },
+      {
+        "id": 100,
+        "name": "Cadeira Suspensa Priscila",
+        "description": "Cadeira suspensa com estrutura elegante e assento confortável, ideal para criar um recanto relaxante em interiores ou exteriores.",
+        "price": 179.00,
+        "category": "Exterior - Cadeiras Suspensas",
+        "stock": {"médio": 12, "grande": 13},
+        "date": "12/24/2024",
+        "size": ["médio", "grande"],
+        "color": ["branco"],
+        "image": "/imagens/cadeira-suspensa-id100.png",
+        "reviews": [
+          {
+            "username": "Lilith Vondrasek",
+            "score": 5,
+            "comment": "Linda e muito confortável! Fica perfeita na varanda."
+          }
+        ]
+      }      
+  ]

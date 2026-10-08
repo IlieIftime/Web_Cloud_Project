@@ -1,0 +1,530 @@
+.hero {
+  background: 
+    linear-gradient(rgba(255, 245, 233, 0.85), rgba(255, 245, 233, 0.85)),
+    url('/imagens/banner.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h2 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  color: #3b3029;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #5a5047;
+}
+
+.divisoes-estatisticas {
+  background-color: #fdf6ec;
+  padding: 40px 0 60px;
+  border-bottom: 1px solid rgba(229, 220, 209, 0.5);
+}
+
+.divisoes-linha {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.divisoes-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100px;
+}
+
+.divisoes-num {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #3b3029;
+}
+
+.divisoes-num span {
+  font-size: 0.9rem;
+  font-weight: normal;
+  margin-left: 4px;
+  color: #888078;
+}
+
+.divisoes-nome {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #5a5047;
+  margin-top: 4px;
+}
+
+.destaques {
+  padding: 40px 20px 60px;
+  background-color: #fdf6ec;
+}
+
+.destaques h2 {
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  color: #3b3029;
+  text-align: center;
+}
+
+.conjunto-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+.banner {
+  background-color: #e6d3c5;
+  padding: 60px 20px 50px;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.8rem;
+  color: #3b3029;
+}
+
+.banner p {
+  font-size: 1.1rem;
+  margin-bottom: 2.2rem;
+  color: #5a5047;
+}
+
+.btn-banner {
+  padding: 12px 24px;
+  background-color: #ffffff;
+  color: #3b3029;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  display: inline-block;
+}
+
+.btn-banner:hover {
+  color: #d1b7a1;
+  background-color: #f2f2f2;
+}
+
+.carousel-2025 {
+  margin: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-2025 .slick-prev,
+.carousel-2025 .slick-next {
+  top: 39%;
+}
+
+.slide-item {
+  padding: 4px;
+}
+
+.slide-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.slide-caption {
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #3b3029;
+}
+
+.slide-image-wrapper {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.slide-image-wrapper.indisponivel img {
+  opacity: 0.65;
+}
+
+.slide-image-wrapper .faixa-indisponivel {
+  position: absolute;
+  bottom: 0; 
+  left: 0;
+  right: 0;
+  background-color: rgba(179, 177, 177, 0.85);
+  color: white;
+  text-align: center;
+  padding: 6px 0;
+  font-weight: bold;
+  font-size: 0.95rem;
+  z-index: 2;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+
+.quiz-filtros {
+  padding: 60px;
+  text-align: center;
+}
+
+.quiz-filtros h2 {
+  font-size: 1.8rem;
+  margin-bottom: 16px;
+  color: #3b3029;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.step label {
+  padding: 10px;
+  font-weight: 500;
+  color: #5a5047;
+}
+
+.opcoes-divisao {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding-bottom: 10px;
+}
+
+.divisao-imagem {
+  width: 180px;
+  height: 100px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.divisao-imagem::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(243, 225, 200, 0.75);
+}
+
+.divisao-imagem span {
+  z-index: 1;
+  font-size: 1.4rem;
+  color: #5a5047;
+}
+
+.divisao-imagem:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+.divisao-imagem.ativo {
+  outline: 2px solid #e6d3c5;
+}
+
+.quiz-filtros select {
+  padding: 10px 14px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #d1c5b7;
+  color: #3b3029;
+  max-width: 300px;
+  width: 100%;
+}
+
+.quiz-filtros select:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.quiz-filtros .btn-banner {
+  padding: 14px 28px;
+  font-size: 1.05rem;
+  background-color: #8c6f56;
+  color: #fffaf3;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 27px;
+  margin-bottom: 20px;
+}
+
+.quiz-filtros .btn-banner:hover {
+  background-color: #7a5f49;
+}
+
+.contacto-section {
+  background-color: #f9ecdf;
+  padding: 40px 100px;
+}
+
+.contacto-wrapper {
+  display: flex;
+}
+
+.contacto-info {
+  flex: 1;
+  padding-left: 140px;
+}
+
+.contacto-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.contacto-info p {
+  margin: 0.6rem 0;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.contacto-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-right: 100px;
+}
+
+.contacto-form label {
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto-form input,
+.contacto-form textarea {
+  padding: 10px 12px;
+  border: 1px solid #d1b8a6;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contacto-form button {
+  padding: 12px 24px;
+  background-color: #3b3025;
+  color: #fffaf0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  align-self: flex-start;
+  transition: background-color 0.3s ease;
+}
+
+.contacto-form button:hover {
+  background-color: #2e241c;
+}
+
+.contacto-form input:focus,
+.contacto-form textarea:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #bca489;
+}
+
+.sucesso-envio {
+  margin-top: 12px;
+  color: #2e241c;
+  font-size: 0.95rem;
+  font-weight: 500;
+  background-color: #fff4e0;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 1px solid #e4cdb0;
+  animation: fadeInOut 5s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* Responsive Design */
+
+/* ecrãs pequenos como telemóveis */
+@media (max-width: 932px) {
+  .hero {
+    padding: 50px 16px;
+  }
+
+  .hero h2 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .divisoes-estatisticas {
+    padding: 30px 16px 40px;
+  }
+  
+  .divisoes-linha {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .divisoes-item {
+    min-width: 80px;
+    max-width: 90px;
+  }
+  
+  .divisoes-num {
+    font-size: 1.2rem;
+  }
+  
+  .divisoes-num span {
+    font-size: 0.75rem;
+  }
+  
+  .divisoes-nome {
+    font-size: 0.85rem;
+    text-align: center;
+  }  
+
+  .destaques h2 {
+    font-size: 1.6rem;
+  }
+
+  .conjunto-produtos {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  
+  .produto-cartao p {
+    font-size: 0.85rem;
+  }
+
+  .banner h1 {
+    font-size: 1.8rem;
+  }
+
+  .banner p {
+    font-size: 1rem;
+  }
+
+  .carousel-2025 {
+    margin: 20px 10px;
+  }
+
+  .slide-image {
+    height: 160px;
+  }
+
+  .quiz-filtros {
+    padding: 30px 16px;
+  }
+
+  .quiz-filtros h2 {
+    font-size: 1.5rem;
+  }
+
+  .quiz-filtros select {
+    width: auto;
+  }
+
+  .opcoes-divisao {
+    display: grid;
+    gap: 12px;
+    overflow-x: unset;
+  }
+
+  .divisao-imagem span {
+    font-size: 1.1rem;
+  }
+
+  .contacto-section {
+    padding: 30px 16px;
+  }
+
+  .contacto-wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contacto-info {
+    padding-left: 0;
+  }
+
+  .contacto-info h2 {
+    font-size: 1.4rem;
+  }
+
+  .contacto-info p {
+    font-size: 0.95rem;
+  }
+
+  .contacto-form {
+    padding-right: 0;
+  }
+}
+
+/* ecrãs médios como tablets */
+@media (min-width: 933px) and (max-width: 1366px) {
+  .hero {
+    padding: 60px 20px;
+  }
+
+  .hero h2 {
+    font-size: 2.2rem;
+  }
+
+  .divisoes-linha {
+    gap: 32px;
+  }
+
+  .conjunto-produtos {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .quiz-filtros {
+    padding: 40px 20px;
+  }
+
+  .quiz-filtros select {
+    width: auto;
+  }
+
+  .opcoes-divisao {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .divisao-imagem span {
+    font-size: 1rem;
+  }
+
+  .contacto-section {
+    padding: 40px 40px;
+  }
+
+  .contacto-info {
+    padding-left: 20px;
+  }
+
+  .contacto-form {
+    padding-right: 20px;
+  }
+}
